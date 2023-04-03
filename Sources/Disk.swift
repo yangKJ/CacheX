@@ -62,7 +62,7 @@ extension Disk: Lemonsable {
         return false
     }
     
-    public func removedCached(completion: @escaping ((Bool) -> Void)) {
+    public func removedCached(completion: @escaping SuccessComplete) {
         guard let docPath = diskCacheDoc() else {
             completion(false)
             return

@@ -42,7 +42,7 @@ extension Memory: Lemonsable {
         return true
     }
     
-    public func removedCached(completion: @escaping ((Bool) -> Void)) {
+    public func removedCached(completion: @escaping SuccessComplete) {
         Memory.memory.removeAllObjects()
         completion(true)
     }

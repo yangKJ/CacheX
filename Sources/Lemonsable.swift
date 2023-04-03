@@ -7,6 +7,8 @@
 
 import Foundation
 
+public typealias SuccessComplete = ((_ isSuccess: Bool) -> Void)
+
 public protocol Lemonsable {
     
     /// Read data.
@@ -23,7 +25,7 @@ public protocol Lemonsable {
     
     /// Clear the cache.
     /// - Parameter completion: Complete the callback.
-    func removedCached(completion: @escaping ((Bool) -> Void))
+    func removedCached(completion: @escaping SuccessComplete)
 }
 
 extension Lemonsable {

@@ -70,7 +70,7 @@ public final class Storage<T: Codable> {
     }
     
     /// Remove disk cache and memory cache.
-    public func removedDiskAndMemoryCached(completion: ((_ isSuccess: Bool) -> Void)? = nil) {
+    public func removedDiskAndMemoryCached(completion: SuccessComplete? = nil) {
         backgroundQueue.async {
             self.disk.removedCached { isSuccess in
                 DispatchQueue.main.async { completion?(isSuccess) }
