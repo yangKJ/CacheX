@@ -6,7 +6,6 @@
 //  
 
 import Foundation
-import CoreFoundation
 
 /// Mixed storge transfer station.
 public final class Storage<T: Codable> {
@@ -15,7 +14,7 @@ public final class Storage<T: Codable> {
     public lazy var memory: Memory = Memory()
     
     lazy var transformer = TransformerFactory.forCodable(ofType: T.self)
-    let backgroundQueue: DispatchQueue
+    public let backgroundQueue: DispatchQueue
     
     /// Initialize the object.
     /// - Parameter queue: The default thread is the background thread.

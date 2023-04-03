@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Lemons'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Mixed storage warehouse with disk and memory.'
   
   # This description is used to generate tags and improve search results.
