@@ -37,12 +37,12 @@ extension Memory: Lemonsable {
         Memory.memory.setObject(value as NSData, forKey: key as AnyObject, cost: value.count)
     }
     
-    @discardableResult public func removeCache(key: String) -> Bool {
+    public func removeCache(key: String) -> Bool {
         Memory.memory.removeObject(forKey: key as AnyObject)
         return true
     }
     
-    public func removedCached(completion: @escaping SuccessComplete) {
+    public func removedCached(completion: SuccessComplete) {
         Memory.memory.removeAllObjects()
         completion(true)
     }

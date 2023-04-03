@@ -18,14 +18,14 @@ public protocol Lemonsable {
     func store(key: String, value: Data)
     
     /// Clear the cache according to key value.
-    @discardableResult func removeCache(key: String) -> Bool
+    func removeCache(key: String) -> Bool
     
     /// Clear the cache.
     func removedAllCached()
     
     /// Clear the cache.
     /// - Parameter completion: Complete the callback.
-    func removedCached(completion: @escaping SuccessComplete)
+    func removedCached(completion: SuccessComplete)
 }
 
 extension Lemonsable {
