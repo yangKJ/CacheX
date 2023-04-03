@@ -17,7 +17,9 @@ public final class Storage<T: Codable> {
     lazy var transformer = TransformerFactory.forCodable(ofType: T.self)
     let backgroundQueue: DispatchQueue
     
-    init(queue: DispatchQueue? = nil) {
+    /// Initialize the object.
+    /// - Parameter queue: The default thread is the background thread.
+    public init(queue: DispatchQueue? = nil) {
         self.backgroundQueue = queue ?? {
             /// Create a background thread.
             DispatchQueue(label: "com.condy.lemons.cached.queue", qos: .background, attributes: [.concurrent])
@@ -29,7 +31,7 @@ public final class Storage<T: Codable> {
         guard let data = try? transformer.toData(object) else {
             return
         }
-        store(key: key, value: data, options: options)
+        write(key: key, value: data, options: options)
     }
     
     /// Read cached object.
@@ -54,8 +56,8 @@ public final class Storage<T: Codable> {
         }
     }
     
-    /// Storage data asynchronously to disk and memory.
-    public func store(key: String, value: Data, options: CachedOptions) {
+    /// Write data asynchronously to disk and memory.
+    public func write(key: String, value: Data, options: CachedOptions) {
         backgroundQueue.async {
             switch options {
             case .all:
@@ -73,14 +75,14 @@ public final class Storage<T: Codable> {
             self.disk.removedCached { isSuccess in
                 DispatchQueue.main.async { completion?(isSuccess) }
             }
-            self.memory.removedCached()
+            self.memory.removedAllCached()
         }
     }
 }
 
 extension Storage {
     
-    private func lemoner(_ options: CachedOptions) -> Lemonable? {
+    private func lemoner(_ options: CachedOptions) -> Lemonsable? {
         switch options {
         case .disk:
             return disk

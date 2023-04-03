@@ -1,0 +1,16 @@
+PODS:
+  - Lemons (0.0.1)
+
+DEPENDENCIES:
+  - Lemons (from `./`)
+
+EXTERNAL SOURCES:
+  Lemons:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  Lemons: 1bc76e1af5f1e2920263d85089810471c632e981
+
+PODFILE CHECKSUM: be1fca2c514a0ab2fabc84298391796ecc70b5cc
+
+COCOAPODS: 1.11.3

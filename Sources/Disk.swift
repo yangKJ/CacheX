@@ -22,9 +22,11 @@ public struct Disk {
     
     /// The maximum total cost that the cache can hold before it starts evicting objects. default 20kb.
     public var maxCountLimit: Disk.Byte = 20 * 1024
+    
+    public init() { }
 }
 
-extension Disk: Lemonable {
+extension Disk: Lemonsable {
     
     public func read(key: String) -> Data? {
         /// 过期清除缓存
@@ -60,17 +62,17 @@ extension Disk: Lemonable {
         return false
     }
     
-    public func removedCached(completion: ((Bool) -> Void)?) {
+    public func removedCached(completion: @escaping ((Bool) -> Void)) {
         guard let docPath = diskCacheDoc() else {
-            completion?(false)
+            completion(false)
             return
         }
         do {
             try Disk.disk.removeItem(atPath: docPath)
             try Disk.disk.createDirectory(atPath: docPath, withIntermediateDirectories: true, attributes: nil)
-            completion?(true)
+            completion(true)
         } catch {
-            completion?(false)
+            completion(false)
         }
     }
 }

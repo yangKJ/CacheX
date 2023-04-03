@@ -23,9 +23,11 @@ public struct Memory {
             Memory.memory.totalCostLimit = Int(maxCostLimit)
         }
     }
+    
+    public init() { }
 }
 
-extension Memory: Lemonable {
+extension Memory: Lemonsable {
     
     public func read(key: String) -> Data? {
         Memory.memory.object(forKey: key as AnyObject) as? Data
@@ -40,8 +42,8 @@ extension Memory: Lemonable {
         return true
     }
     
-    public func removedCached(completion: ((Bool) -> Void)?) {
+    public func removedCached(completion: @escaping ((Bool) -> Void)) {
         Memory.memory.removeAllObjects()
-        completion?(true)
+        completion(true)
     }
 }
