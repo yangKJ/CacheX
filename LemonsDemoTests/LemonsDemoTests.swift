@@ -54,20 +54,20 @@ final class LemonsDemoTests: XCTestCase {
         let data_ = disk.read(key: key)
         XCTAssertNotNil(data_)
         
-        let string = String(data: data_!, encoding: String.Encoding.utf8)
+        let string = data_?.lem.toString()
         XCTAssertNotNil(string)
         XCTAssert(string! == "Condy_Disk", "Disk data reading failed.")
     }
     
     func testRemoveDiskExample() {
         let exp = expectation(description: #function)
-
+        
         let disk = Lemons.Disk()
         let key = CryptoType.md5.encryptedString(with: "disk_1234")
         let isSuccess = disk.removeCache(key: key)
         XCTAssert(isSuccess == true, "Successful disk data cleaning!")
         exp.fulfill()
-
+        
         waitForExpectations(timeout: 3, handler: nil)
     }
     
@@ -76,7 +76,7 @@ final class LemonsDemoTests: XCTestCase {
         let storage = Storage<CacheModel>.init(queue: queue)
         
         let key = CryptoType.md5.encryptedString(with: "key1234")
-        let data = "Condy".data(using: String.Encoding.utf8)!
+        let data = "Condy".lem.toData()!
         
         let model = CacheModel(data: data, statusCode: 200)
         storage.storeCached(model, forKey: key, options: .disk)

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		83D4B8049DE5D79A81AB4E6C /* Pods_LemonsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F433BDCF6376F7E29F772EC5 /* Pods_LemonsDemo.framework */; };
+		873154F529DFB51000C8462E /* LemonsOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873154F429DFB51000C8462E /* LemonsOCTests.m */; };
 		8787A20029DA5CF7009B2724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8787A1FF29DA5CF7009B2724 /* AppDelegate.swift */; };
 		8787A20229DA5CF7009B2724 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8787A20129DA5CF7009B2724 /* SceneDelegate.swift */; };
 		8787A20429DA5CF7009B2724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8787A20329DA5CF7009B2724 /* ViewController.swift */; };
@@ -32,6 +33,8 @@
 		43CFE5D45EDCBD95B1D0F332 /* Pods-LemonsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonsDemoTests.release.xcconfig"; path = "Target Support Files/Pods-LemonsDemoTests/Pods-LemonsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		5081DF3CB9CFD4EDB97FE87D /* Pods-LemonsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonsDemo.release.xcconfig"; path = "Target Support Files/Pods-LemonsDemo/Pods-LemonsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		539D680B234AD6A44A58FF77 /* Pods-LemonsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonsDemo.debug.xcconfig"; path = "Target Support Files/Pods-LemonsDemo/Pods-LemonsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		873154F329DFB51000C8462E /* LemonsDemoTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LemonsDemoTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		873154F429DFB51000C8462E /* LemonsOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LemonsOCTests.m; sourceTree = "<group>"; };
 		8787A1FC29DA5CF7009B2724 /* LemonsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8787A1FF29DA5CF7009B2724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8787A20129DA5CF7009B2724 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,7 +116,9 @@
 		8787A21529DA5CF9009B2724 /* LemonsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				873154F329DFB51000C8462E /* LemonsDemoTests-Bridging-Header.h */,
 				8787A21629DA5CF9009B2724 /* LemonsDemoTests.swift */,
+				873154F429DFB51000C8462E /* LemonsOCTests.m */,
 			);
 			path = LemonsDemoTests;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 					};
 					8787A21129DA5CF9009B2724 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 						TestTargetID = 8787A1FB29DA5CF7009B2724;
 					};
 				};
@@ -290,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8787A21729DA5CF9009B2724 /* LemonsDemoTests.swift in Sources */,
+				873154F529DFB51000C8462E /* LemonsOCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,15 +510,23 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AAHMKJNWLX;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Apple.LemonsDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "LemonsDemoTests/LemonsDemoTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LemonsDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LemonsDemo";
@@ -524,15 +539,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AAHMKJNWLX;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Apple.LemonsDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "LemonsDemoTests/LemonsDemoTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LemonsDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LemonsDemo";
