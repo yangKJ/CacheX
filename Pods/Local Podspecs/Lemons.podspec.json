@@ -1,6 +1,6 @@
 {
   "name": "Lemons",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "summary": "Mixed storage warehouse with disk and memory. Support OC and Swift.",
   "homepage": "https://github.com/yangKJ/Lemons",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/yangKJ/Lemons.git",
-    "tag": "0.0.5"
+    "tag": "0.0.6"
   },
   "swift_versions": "5.0",
   "requires_arc": true,

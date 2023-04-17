@@ -72,10 +72,10 @@ public final class Storage<T: Codable> {
     public func removed(forKey key: String, options: CachedOptions) {
         switch options {
         case.all:
-            let _ = self.memory.removeCache(key: key)
-            let _ = self.disk.removeCache(key: key)
+            self.memory.removeCache(key: key)
+            self.disk.removeCache(key: key)
         default:
-            let _ = self.lemoner(options)?.removeCache(key: key)
+            self.lemoner(options)?.removeCache(key: key)
         }
     }
     

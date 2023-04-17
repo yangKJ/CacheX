@@ -63,8 +63,15 @@ import ObjectiveC
     ///   - key: Cache key.
     ///   - options: Type of cache, default disk and memory.
     /// - Returns: Disk data or memory data.
-    @objc public func read(key: String, options: OCCachedOptions = .all) -> Data? {
-        return storage.read(key: key, options: options.options)
+    @objc public func read(key: String, options: OCCachedOptions) -> Data? {
+        storage.read(key: key, options: options.options)
+    }
+    
+    /// Read disk data or memory data.
+    /// - Parameter key: Cache key.
+    /// - Returns: Disk data or memory data.
+    @objc public func read(key: String) -> Data? {
+        read(key: key, options: .all)
     }
     
     /// Store data asynchronously to disk and memory.
@@ -72,8 +79,16 @@ import ObjectiveC
     ///   - key: Cache key.
     ///   - value: Data to be cached.
     ///   - options: Type of cache, default disk and memory.
-    @objc public func store(key: String, value: Data, options: OCCachedOptions = .all) {
+    @objc public func store(key: String, value: Data, options: OCCachedOptions) {
         storage.write(key: key, value: value, options: options.options)
+    }
+    
+    /// Store data asynchronously to disk and memory.
+    /// - Parameters:
+    ///   - key: Cache key.
+    ///   - value: Data to be cached.
+    @objc public func store(key: String, value: Data) {
+        store(key: key, value: value, options: .all)
     }
     
     /// Remove the data corresponding to the key.
