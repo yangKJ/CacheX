@@ -1,5 +1,5 @@
 PODS:
-  - Lemons (0.0.6)
+  - Lemons (0.0.7)
 
 DEPENDENCIES:
   - Lemons (from `./`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  Lemons: 9c705456576bb5bd415e82be9542076362b914ee
+  Lemons: c7d7a9171f510b0cddee4d836bbc43cb9d783224
 
 PODFILE CHECKSUM: be1fca2c514a0ab2fabc84298391796ecc70b5cc
 

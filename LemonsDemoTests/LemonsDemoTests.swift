@@ -50,7 +50,7 @@ final class LemonsDemoTests: XCTestCase {
     func testReadFromDiskExample() {
         let disk = Lemons.Disk()
         
-        let key = CryptoType.md5.encryptedString(with: "disk_1234")
+        let key = CryptoType.md5.encryptedString(with: "disk_123456")
         let data_ = disk.read(key: key)
         XCTAssertNotNil(data_)
         
