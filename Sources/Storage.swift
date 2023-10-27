@@ -8,20 +8,31 @@
 import Foundation
 
 /// Mixed storge transfer station.
-public struct Storage<T: Codable> {
+public final class Storage<T: Codable> {
     
-    public let driver: Driver
+    public lazy var disk: Disk = Disk()
+    public lazy var memory: Memory = Memory()
+    
+    public lazy var caches: [String: Cacheable] = [
+        Memory.named: memory,
+        Disk.named: disk
+    ]
+    
+    public let backgroundQueue: DispatchQueue
     
     lazy var transformer = TransformerFactory<T>.forCodable()
     
     /// Initialize the object.
     /// - Parameter queue: The default thread is the background thread.
     public init(queue: DispatchQueue? = nil) {
-        self.driver = Driver(queue: queue)
+        self.backgroundQueue = queue ?? {
+            /// Create a background thread.
+            DispatchQueue(label: "com.condy.CacheX.cached.queue", attributes: [.concurrent])
+        }()
     }
     
     /// Caching object.
-    public mutating func storeCached(_ object: T, forKey key: String, options: CachedOptions) {
+    public func storeCached(_ object: T, forKey key: String, options: CachedOptions) {
         guard let data = try? transformer.toData(object) else {
             return
         }
@@ -29,7 +40,7 @@ public struct Storage<T: Codable> {
     }
     
     /// Read cached object.
-    public mutating func fetchCached(forKey key: String, options: CachedOptions) -> T? {
+    public func fetchCached(forKey key: String, options: CachedOptions) -> T? {
         guard let data = read(key: key, options: options) else {
             return nil
         }
@@ -38,21 +49,35 @@ public struct Storage<T: Codable> {
     
     /// Read disk data or memory data.
     public func read(key: String, options: CachedOptions) -> Data? {
-        driver.read(key: key, options: options)
+        for named in options.cacheNameds() where self.caches[named] != nil {
+            return self.caches[named]!.read(key: key)
+        }
+        return nil
     }
     
     /// Write data asynchronously to disk and memory.
     public func write(key: String, value: Data, options: CachedOptions) {
-        driver.write(key: key, value: value, options: options)
+        backgroundQueue.async {
+            for named in options.cacheNameds() {
+                self.caches[named]?.store(key: key, value: value)
+            }
+        }
     }
     
     /// Remove the specified data.
     public func removed(forKey key: String, options: CachedOptions) {
-        driver.removed(forKey: key, options: options)
+        for named in options.cacheNameds() {
+            self.caches[named]?.removeCache(key: key)
+        }
     }
     
     /// Remove disk cache and memory cache.
     public func removedDiskAndMemoryCached(completion: SuccessComplete? = nil) {
-        driver.removedDiskAndMemoryCached(completion: completion)
+        backgroundQueue.async {
+            self.disk.removedCached { isSuccess in
+                DispatchQueue.main.async { completion?(isSuccess) }
+            }
+            self.memory.removedAllCached()
+        }
     }
 }

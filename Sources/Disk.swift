@@ -28,6 +28,10 @@ public struct Disk {
 
 extension Disk: Cacheable {
     
+    public static  var named: String {
+        "cache_disk"
+    }
+    
     public func read(key: String) -> Data? {
         /// 过期清除缓存
         if isExpired(forKey: key), removeCache(key: key) {

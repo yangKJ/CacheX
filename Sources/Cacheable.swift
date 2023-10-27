@@ -11,6 +11,8 @@ public typealias SuccessComplete = ((_ isSuccess: Bool) -> Void)
 
 public protocol Cacheable {
     
+    static var named: String { get }
+    
     /// Read data.
     func read(key: String) -> Data?
     
@@ -31,8 +33,6 @@ public protocol Cacheable {
 extension Cacheable {
     
     public func removedAllCached() {
-        removedCached { _ in
-            
-        }
+        removedCached { _ in }
     }
 }

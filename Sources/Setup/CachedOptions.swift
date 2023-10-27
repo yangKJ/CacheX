@@ -26,6 +26,19 @@ public struct CachedOptions: OptionSet, Hashable {
     public static let all: CachedOptions = [.memory, .disk]
 }
 
+extension CachedOptions {
+    func cacheNameds() -> [String] {
+        var nameds = [String]()
+        if contains(.memory) {
+            nameds.append(Memory.named)
+        }
+        if contains(.disk) {
+            nameds.append(Disk.named)
+        }
+        return nameds
+    }
+}
+
 @objc public enum OCCachedOptions: Int {
     case none = 0
     case memory

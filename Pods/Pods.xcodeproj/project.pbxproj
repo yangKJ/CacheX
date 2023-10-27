@@ -7,32 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095808D999EEDB4086735291F2EA6010 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA255CA336B15F2EF0694C1C9C06DCC /* Memory.swift */; };
 		17A3986A30C8BDB9ECEAC81630E508AB /* Pods-CacheXDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 718D649D3705950EEAAEBADF0FBBB147 /* Pods-CacheXDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3608CA6756C6885FA13F51C862A682F6 /* CachedOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6820E79D840A9597C8FD36C877C563FD /* CachedOptions.swift */; };
+		1D32A676CAE74E95D03EC2E1C558B286 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB2E4FCC793BA359E9B954479207EF /* Extensions.swift */; };
+		2479BCF56E61592FA68DE8659099F136 /* Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D5947F525436F2AF16F0EA65717F1 /* Disk.swift */; };
 		376C813BC6389374A66B1DE882B19EDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3A467D83373F4A1FCC89B3E74CFE79AB /* Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB489758EB8CC734BDC469D1F16BE5 /* Disk.swift */; };
-		4714123D504139B050193C0871D2E694 /* TransformFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EC8D86CB22C42104EB48F2AA3AB9A /* TransformFactor.swift */; };
-		560FDABAB2FC9EDC6119D3AF858AE3C7 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609316DE9235004C17CA172FFD43F253 /* Storage.swift */; };
-		6B8D971421ED18F7CD840A466D506889 /* CryptoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF596A55C541F4EE38C19ED3817B59E4 /* CryptoType.swift */; };
-		6DA4955CD89C24510F637EA4237B6055 /* CacheX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BCF6FC3C89E65FD02814FC99506377 /* CacheX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F33A3A21242A17E0CCFAF21859A59E8 /* CacheX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF09CBBB08B4506C5BA901C072CE43D /* CacheX.swift */; };
+		3C0E559265E94E6F0941A5272619F341 /* CacheX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AEC04C2E868935E796CAE7359A5531 /* CacheX-dummy.m */; };
+		53AF4391B63D8657D9CA96A98A6BDF6B /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB097387DE4BC4A04AD46DEE8CC9FF41 /* Storage.swift */; };
+		5E22BEA4397033607F68AA1D6DD796B8 /* CachedOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508E1EF6435BE18EB95E9674806671BD /* CachedOptions.swift */; };
+		8933D4040D8D89690382F50978CD9E8B /* TransformFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782D1EF64C971103700106D03EB3897F /* TransformFactor.swift */; };
 		8C3C801395F9A9D294B0821E6CF87317 /* Pods-CacheXDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0C91E8CB22E76BE8696CB5A189F7B8 /* Pods-CacheXDemo-dummy.m */; };
-		92A858D348559C4BC713AA12BFC37C6B /* CacheX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 175C71609D3AED727C5C26C2D77365E3 /* CacheX-dummy.m */; };
-		C793512BADDE11E4ECE5837F47C4720F /* Subscriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E06BE48A3DEE2AEA6D80DACF456E54E /* Subscriptable.swift */; };
-		CC7B9C3A8BDE48CEB1608CA3DBACEC76 /* Cacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4407B89BA5DC8F22626BE4020E05 /* Cacheable.swift */; };
-		CFD12560A7E11215E2029356370569E9 /* OCStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789CF1B01DC2E74CC5D102A40FFB6F1 /* OCStorage.swift */; };
-		D70164EE58C187615AB457A26EFCAD08 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E140C311F5C232F169E2CDDA76FA7FF /* String+Ext.swift */; };
-		DC94485341AE306B95F71EB0BAC0104C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DD9575C786A20ABD09060FAFB87A9567 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D6C2DBE678C4869B413054B4DEDFB /* Date+Ext.swift */; };
-		E56A94B5264A04D51519131096E9225C /* Expiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC885C811E6F255374952470BACCEB6F /* Expiry.swift */; };
-		E9DBA5D9013AD3C7819280B8AEFDE8B7 /* TransformerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C331A81C47ED4A0318097AD186AC0FB0 /* TransformerFactory.swift */; };
-		F0DCAC743AFA7376A2885DD74B07188D /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202FD21506116160BB518E2F47398CA /* Driver.swift */; };
-		F1A259208E9AFF02BEB9EF9AEF39FCED /* ImageTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E14021979943E81E813A0A9C83C634 /* ImageTransform.swift */; };
-		FBE44CB0F55E34A6033A745D72D0663E /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F075B8E803F0C2FD451E25F697A0269A /* Memory.swift */; };
+		9FD6D5247B80086AB23DB1A4743FC3D2 /* Expiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3269977E360A1A5C12B76D997C79682C /* Expiry.swift */; };
+		A55B81BB2F1FA2C5880BF58C6F6C0A22 /* CryptoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DFF6311C1D8FF858E3C0DD18AFD38E /* CryptoType.swift */; };
+		ADB1C99CA962BBC9EB5B62C7B0B60982 /* Cacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64555F634D2C9872C666915DE878E7 /* Cacheable.swift */; };
+		BEDDA86AEC8C92CA8D9536F9596C432F /* CacheX.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1118F4691B0FB5AB7AAC08791C905 /* CacheX.swift */; };
+		C3E825EFE5C961B1E5E2C8D80BD4EBE6 /* TransformerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA72D7C1191B1ECD3FF6B5FCE793E779 /* TransformerFactory.swift */; };
+		C6A7890F65AB03D0BCA8742C2629F2EF /* OCStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18E789763F9752368A0ED5FE63CFDFA /* OCStorage.swift */; };
+		CB25DEBBB82BE447AD2E5B08E785CF92 /* CacheX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D524D78D8AEE02724D57C6EA00047D5 /* CacheX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D47E42BA39EA68238B559FC2CC9012CC /* Subscriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5831D5A65D4F7BA21B3FB10FED8F3 /* Subscriptable.swift */; };
+		D67489AD78C1BA79B8647CF45D22B9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA48596D81216465B465881446600204 /* ImageTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D837BAC8D484286C815FF5BAA54BE3 /* ImageTransform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		346C4D2BC4C6B86C9F6D0EAF70A13CF0 /* PBXContainerItemProxy */ = {
+		39AEFCA40D093433732697B69C40282A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -42,52 +40,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02E14021979943E81E813A0A9C83C634 /* ImageTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageTransform.swift; sourceTree = "<group>"; };
 		0DDDD720945F54575ADA5BACD7F6C823 /* Pods-CacheXDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CacheXDemo.release.xcconfig"; sourceTree = "<group>"; };
-		175C71609D3AED727C5C26C2D77365E3 /* CacheX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CacheX-dummy.m"; sourceTree = "<group>"; };
-		1D1A4407B89BA5DC8F22626BE4020E05 /* Cacheable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cacheable.swift; path = Sources/Cacheable.swift; sourceTree = "<group>"; };
-		24F33DFE1DCFA2109599574D43DE0587 /* CacheX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CacheX.modulemap; sourceTree = "<group>"; };
-		2789CF1B01DC2E74CC5D102A40FFB6F1 /* OCStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OCStorage.swift; path = Sources/OCStorage.swift; sourceTree = "<group>"; };
-		2A5265788CD9A7671A8A83E199466D13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2AF09CBBB08B4506C5BA901C072CE43D /* CacheX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CacheX.swift; sourceTree = "<group>"; };
+		16D837BAC8D484286C815FF5BAA54BE3 /* ImageTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageTransform.swift; sourceTree = "<group>"; };
+		1AA85060007DFE384F20E8E45E767030 /* CacheX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CacheX.release.xcconfig; sourceTree = "<group>"; };
 		2CA6588051AAA1E8DE263D9D47F7C2BF /* CacheX */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CacheX; path = CacheX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F7EC8D86CB22C42104EB48F2AA3AB9A /* TransformFactor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransformFactor.swift; sourceTree = "<group>"; };
-		3E140C311F5C232F169E2CDDA76FA7FF /* String+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		2D524D78D8AEE02724D57C6EA00047D5 /* CacheX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CacheX-umbrella.h"; sourceTree = "<group>"; };
+		324D5947F525436F2AF16F0EA65717F1 /* Disk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disk.swift; path = Sources/Disk.swift; sourceTree = "<group>"; };
+		3269977E360A1A5C12B76D997C79682C /* Expiry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Expiry.swift; sourceTree = "<group>"; };
+		42AEC04C2E868935E796CAE7359A5531 /* CacheX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CacheX-dummy.m"; sourceTree = "<group>"; };
+		447EB8A8BBFB9D28AA40B649A55DF0F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4AF387E6B685ECFC8F816AA5D8C885EC /* Pods-CacheXDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CacheXDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		50BCF6FC3C89E65FD02814FC99506377 /* CacheX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CacheX-umbrella.h"; sourceTree = "<group>"; };
-		512D6C2DBE678C4869B413054B4DEDFB /* Date+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
-		56D2F7F500E6B36F678B650EB949A55C /* CacheX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CacheX-prefix.pch"; sourceTree = "<group>"; };
+		4CB121CB474A5B72EB7B8FC5BC821760 /* CacheX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CacheX.debug.xcconfig; sourceTree = "<group>"; };
+		508E1EF6435BE18EB95E9674806671BD /* CachedOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CachedOptions.swift; sourceTree = "<group>"; };
+		56B0CBCA1C73B3BD1BE537F3A746199F /* CacheX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CacheX-prefix.pch"; sourceTree = "<group>"; };
 		596798954A437070F8F71B1D2C292280 /* Pods-CacheXDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CacheXDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5E06BE48A3DEE2AEA6D80DACF456E54E /* Subscriptable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Subscriptable.swift; sourceTree = "<group>"; };
-		609316DE9235004C17CA172FFD43F253 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Storage.swift; sourceTree = "<group>"; };
-		6820E79D840A9597C8FD36C877C563FD /* CachedOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CachedOptions.swift; sourceTree = "<group>"; };
+		5BFBB2B61F539002C202B1D97CB6303D /* CacheX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CacheX.modulemap; sourceTree = "<group>"; };
+		626985B33512C0E63802C73EE2382D63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		66DFF6311C1D8FF858E3C0DD18AFD38E /* CryptoType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoType.swift; sourceTree = "<group>"; };
 		718D649D3705950EEAAEBADF0FBBB147 /* Pods-CacheXDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CacheXDemo-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78BAD79CB2FF37CB40AA13E18ACC7694 /* CacheX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CacheX.debug.xcconfig; sourceTree = "<group>"; };
-		791240B2FFB785BD802C8F0BEDB2981F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7A6101E027219F896DF47063DFD22600 /* CacheX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CacheX.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8202FD21506116160BB518E2F47398CA /* Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = Sources/Driver.swift; sourceTree = "<group>"; };
-		9574AD515FD26E348B35E3EA164438A0 /* CacheX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CacheX-Info.plist"; sourceTree = "<group>"; };
+		74DB2E4FCC793BA359E9B954479207EF /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		782D1EF64C971103700106D03EB3897F /* TransformFactor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransformFactor.swift; sourceTree = "<group>"; };
+		7AD5831D5A65D4F7BA21B3FB10FED8F3 /* Subscriptable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Subscriptable.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F8185FA62C22C3F835AB2C3D033EAF6 /* Pods-CacheXDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CacheXDemo-Info.plist"; sourceTree = "<group>"; };
+		ADA255CA336B15F2EF0694C1C9C06DCC /* Memory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Memory.swift; path = Sources/Memory.swift; sourceTree = "<group>"; };
+		AED8CE12FFE6F31068366762E28273A0 /* CacheX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CacheX-Info.plist"; sourceTree = "<group>"; };
 		B675AF8533EC9455AD93B7E5A8E78C25 /* Pods-CacheXDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CacheXDemo"; path = Pods_CacheXDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C331A81C47ED4A0318097AD186AC0FB0 /* TransformerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransformerFactory.swift; sourceTree = "<group>"; };
 		C817A58ABF3DC09D49093AD2AAF5295D /* Pods-CacheXDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CacheXDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CA3C2A4A5AD6F3C842E69ADDE0E6DB77 /* CacheX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CacheX.release.xcconfig; sourceTree = "<group>"; };
 		CE0C91E8CB22E76BE8696CB5A189F7B8 /* Pods-CacheXDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CacheXDemo-dummy.m"; sourceTree = "<group>"; };
+		D1C1118F4691B0FB5AB7AAC08791C905 /* CacheX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CacheX.swift; sourceTree = "<group>"; };
+		DB097387DE4BC4A04AD46DEE8CC9FF41 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Storage.swift; sourceTree = "<group>"; };
+		DC64555F634D2C9872C666915DE878E7 /* Cacheable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cacheable.swift; path = Sources/Cacheable.swift; sourceTree = "<group>"; };
+		E18E789763F9752368A0ED5FE63CFDFA /* OCStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OCStorage.swift; path = Sources/OCStorage.swift; sourceTree = "<group>"; };
 		EA1C2FC5075BC298A422E6A0662B251B /* Pods-CacheXDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CacheXDemo.modulemap"; sourceTree = "<group>"; };
-		F075B8E803F0C2FD451E25F697A0269A /* Memory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Memory.swift; path = Sources/Memory.swift; sourceTree = "<group>"; };
-		F3DB489758EB8CC734BDC469D1F16BE5 /* Disk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disk.swift; path = Sources/Disk.swift; sourceTree = "<group>"; };
-		FC885C811E6F255374952470BACCEB6F /* Expiry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Expiry.swift; sourceTree = "<group>"; };
-		FF596A55C541F4EE38C19ED3817B59E4 /* CryptoType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoType.swift; sourceTree = "<group>"; };
+		F8EC9AF3BDE65ED333D9AC11B0C6D6E4 /* CacheX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CacheX.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA72D7C1191B1ECD3FF6B5FCE793E779 /* TransformerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransformerFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56BCAB146E9350B5B66D80AC136AD3CC /* Frameworks */ = {
+		546691957D2CD680BD0B80CAB3F4A652 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC94485341AE306B95F71EB0BAC0104C /* Foundation.framework in Frameworks */,
+				D67489AD78C1BA79B8647CF45D22B9BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +114,23 @@
 			path = "Target Support Files/Pods-CacheXDemo";
 			sourceTree = "<group>";
 		};
+		27E284E74939FD6F746D89999A672AA0 /* CacheX */ = {
+			isa = PBXGroup;
+			children = (
+				DC64555F634D2C9872C666915DE878E7 /* Cacheable.swift */,
+				324D5947F525436F2AF16F0EA65717F1 /* Disk.swift */,
+				ADA255CA336B15F2EF0694C1C9C06DCC /* Memory.swift */,
+				E18E789763F9752368A0ED5FE63CFDFA /* OCStorage.swift */,
+				DB097387DE4BC4A04AD46DEE8CC9FF41 /* Storage.swift */,
+				4658468726F5239F28B444C6A8E3D206 /* Pod */,
+				ECF985E4C3C664B93A219448543D0619 /* Setup */,
+				F8287A53DF97E19093764C90B051E9F2 /* Support Files */,
+				5EBD8957753E52D067BD6825FD840890 /* Transforms */,
+			);
+			name = CacheX;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		36DCA37D59A802835AC5836F8A2C6DE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +148,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		4658468726F5239F28B444C6A8E3D206 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC9AF3BDE65ED333D9AC11B0C6D6E4 /* CacheX.podspec */,
+				626985B33512C0E63802C73EE2382D63 /* LICENSE */,
+				447EB8A8BBFB9D28AA40B649A55DF0F3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,97 +166,30 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6FFC97F9B618B353700FF27AEFF14D48 /* Transforms */ = {
+		5EBD8957753E52D067BD6825FD840890 /* Transforms */ = {
 			isa = PBXGroup;
 			children = (
-				02E14021979943E81E813A0A9C83C634 /* ImageTransform.swift */,
-				C331A81C47ED4A0318097AD186AC0FB0 /* TransformerFactory.swift */,
-				2F7EC8D86CB22C42104EB48F2AA3AB9A /* TransformFactor.swift */,
+				16D837BAC8D484286C815FF5BAA54BE3 /* ImageTransform.swift */,
+				FA72D7C1191B1ECD3FF6B5FCE793E779 /* TransformerFactory.swift */,
+				782D1EF64C971103700106D03EB3897F /* TransformFactor.swift */,
 			);
 			name = Transforms;
 			path = Sources/Transforms;
 			sourceTree = "<group>";
 		};
-		7DA6BFF6E91615EC6D84ECBC546D6B14 /* Pod */ = {
+		9BDD61139E25AF41D6FE52B50DAF84B8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7A6101E027219F896DF47063DFD22600 /* CacheX.podspec */,
-				791240B2FFB785BD802C8F0BEDB2981F /* LICENSE */,
-				2A5265788CD9A7671A8A83E199466D13 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		8AFBD83D72C00258577C4B3AF66A5D28 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B0C41DBFF694D9A1EFFAD76E60E24B34 /* CacheX */,
+				27E284E74939FD6F746D89999A672AA0 /* CacheX */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		977ED169B5444C69DCBF8E20FC8FD294 /* Setup */ = {
-			isa = PBXGroup;
-			children = (
-				6820E79D840A9597C8FD36C877C563FD /* CachedOptions.swift */,
-				2AF09CBBB08B4506C5BA901C072CE43D /* CacheX.swift */,
-				FF596A55C541F4EE38C19ED3817B59E4 /* CryptoType.swift */,
-				FC885C811E6F255374952470BACCEB6F /* Expiry.swift */,
-				5E06BE48A3DEE2AEA6D80DACF456E54E /* Subscriptable.swift */,
-			);
-			name = Setup;
-			path = Sources/Setup;
-			sourceTree = "<group>";
-		};
-		B0C41DBFF694D9A1EFFAD76E60E24B34 /* CacheX */ = {
-			isa = PBXGroup;
-			children = (
-				1D1A4407B89BA5DC8F22626BE4020E05 /* Cacheable.swift */,
-				F3DB489758EB8CC734BDC469D1F16BE5 /* Disk.swift */,
-				8202FD21506116160BB518E2F47398CA /* Driver.swift */,
-				F075B8E803F0C2FD451E25F697A0269A /* Memory.swift */,
-				2789CF1B01DC2E74CC5D102A40FFB6F1 /* OCStorage.swift */,
-				609316DE9235004C17CA172FFD43F253 /* Storage.swift */,
-				B52EBC808C61BE792BC71A90B730FA49 /* Extensions */,
-				7DA6BFF6E91615EC6D84ECBC546D6B14 /* Pod */,
-				977ED169B5444C69DCBF8E20FC8FD294 /* Setup */,
-				C00E7016E89354B84609934B1923661C /* Support Files */,
-				6FFC97F9B618B353700FF27AEFF14D48 /* Transforms */,
-			);
-			name = CacheX;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		B52EBC808C61BE792BC71A90B730FA49 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				512D6C2DBE678C4869B413054B4DEDFB /* Date+Ext.swift */,
-				3E140C311F5C232F169E2CDDA76FA7FF /* String+Ext.swift */,
-			);
-			name = Extensions;
-			path = Sources/Extensions;
-			sourceTree = "<group>";
-		};
-		C00E7016E89354B84609934B1923661C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				24F33DFE1DCFA2109599574D43DE0587 /* CacheX.modulemap */,
-				175C71609D3AED727C5C26C2D77365E3 /* CacheX-dummy.m */,
-				9574AD515FD26E348B35E3EA164438A0 /* CacheX-Info.plist */,
-				56D2F7F500E6B36F678B650EB949A55C /* CacheX-prefix.pch */,
-				50BCF6FC3C89E65FD02814FC99506377 /* CacheX-umbrella.h */,
-				78BAD79CB2FF37CB40AA13E18ACC7694 /* CacheX.debug.xcconfig */,
-				CA3C2A4A5AD6F3C842E69ADDE0E6DB77 /* CacheX.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/CacheX";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8AFBD83D72C00258577C4B3AF66A5D28 /* Development Pods */,
+				9BDD61139E25AF41D6FE52B50DAF84B8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				36DCA37D59A802835AC5836F8A2C6DE1 /* Products */,
 				4199A22125356111180FD22A8652C52F /* Targets Support Files */,
@@ -248,6 +204,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		ECF985E4C3C664B93A219448543D0619 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				508E1EF6435BE18EB95E9674806671BD /* CachedOptions.swift */,
+				D1C1118F4691B0FB5AB7AAC08791C905 /* CacheX.swift */,
+				66DFF6311C1D8FF858E3C0DD18AFD38E /* CryptoType.swift */,
+				3269977E360A1A5C12B76D997C79682C /* Expiry.swift */,
+				74DB2E4FCC793BA359E9B954479207EF /* Extensions.swift */,
+				7AD5831D5A65D4F7BA21B3FB10FED8F3 /* Subscriptable.swift */,
+			);
+			name = Setup;
+			path = Sources/Setup;
+			sourceTree = "<group>";
+		};
+		F8287A53DF97E19093764C90B051E9F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBB2B61F539002C202B1D97CB6303D /* CacheX.modulemap */,
+				42AEC04C2E868935E796CAE7359A5531 /* CacheX-dummy.m */,
+				AED8CE12FFE6F31068366762E28273A0 /* CacheX-Info.plist */,
+				56B0CBCA1C73B3BD1BE537F3A746199F /* CacheX-prefix.pch */,
+				2D524D78D8AEE02724D57C6EA00047D5 /* CacheX-umbrella.h */,
+				4CB121CB474A5B72EB7B8FC5BC821760 /* CacheX.debug.xcconfig */,
+				1AA85060007DFE384F20E8E45E767030 /* CacheX.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/CacheX";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -259,11 +244,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		507E5006690173F62FA59BBC51A063D9 /* Headers */ = {
+		D82972A49EC2582F9124D5CCEAE76EA1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DA4955CD89C24510F637EA4237B6055 /* CacheX-umbrella.h in Headers */,
+				CB25DEBBB82BE447AD2E5B08E785CF92 /* CacheX-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +257,12 @@
 /* Begin PBXNativeTarget section */
 		6A5A50F08B9AB921E95DAB117E846CDD /* CacheX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEE4FB74ECCCAF8948D7083CD12DD2B4 /* Build configuration list for PBXNativeTarget "CacheX" */;
+			buildConfigurationList = AD84CA42B766A9C3C9EEF0817529ADBB /* Build configuration list for PBXNativeTarget "CacheX" */;
 			buildPhases = (
-				507E5006690173F62FA59BBC51A063D9 /* Headers */,
-				38E7908EF84CB214B34E61DC13D8D37B /* Sources */,
-				56BCAB146E9350B5B66D80AC136AD3CC /* Frameworks */,
-				54A6BAA59F98786470641B1BCB6EBECC /* Resources */,
+				D82972A49EC2582F9124D5CCEAE76EA1 /* Headers */,
+				0A4BDA3D41CA41353A161A3EBA76E180 /* Sources */,
+				546691957D2CD680BD0B80CAB3F4A652 /* Frameworks */,
+				BF5F9312F55C869466F9C675DD49CBC9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -300,7 +285,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8BEBDF91209061671E0276DB084E2400 /* PBXTargetDependency */,
+				FB74BB2FF61FB3CB1C44213AD29E6749 /* PBXTargetDependency */,
 			);
 			name = "Pods-CacheXDemo";
 			productName = Pods_CacheXDemo;
@@ -336,14 +321,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54A6BAA59F98786470641B1BCB6EBECC /* Resources */ = {
+		ACA52FAD48AF6575DF7BACD68D7F43F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACA52FAD48AF6575DF7BACD68D7F43F3 /* Resources */ = {
+		BF5F9312F55C869466F9C675DD49CBC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,38 +346,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38E7908EF84CB214B34E61DC13D8D37B /* Sources */ = {
+		0A4BDA3D41CA41353A161A3EBA76E180 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7B9C3A8BDE48CEB1608CA3DBACEC76 /* Cacheable.swift in Sources */,
-				3608CA6756C6885FA13F51C862A682F6 /* CachedOptions.swift in Sources */,
-				6F33A3A21242A17E0CCFAF21859A59E8 /* CacheX.swift in Sources */,
-				92A858D348559C4BC713AA12BFC37C6B /* CacheX-dummy.m in Sources */,
-				6B8D971421ED18F7CD840A466D506889 /* CryptoType.swift in Sources */,
-				DD9575C786A20ABD09060FAFB87A9567 /* Date+Ext.swift in Sources */,
-				3A467D83373F4A1FCC89B3E74CFE79AB /* Disk.swift in Sources */,
-				F0DCAC743AFA7376A2885DD74B07188D /* Driver.swift in Sources */,
-				E56A94B5264A04D51519131096E9225C /* Expiry.swift in Sources */,
-				F1A259208E9AFF02BEB9EF9AEF39FCED /* ImageTransform.swift in Sources */,
-				FBE44CB0F55E34A6033A745D72D0663E /* Memory.swift in Sources */,
-				CFD12560A7E11215E2029356370569E9 /* OCStorage.swift in Sources */,
-				560FDABAB2FC9EDC6119D3AF858AE3C7 /* Storage.swift in Sources */,
-				D70164EE58C187615AB457A26EFCAD08 /* String+Ext.swift in Sources */,
-				C793512BADDE11E4ECE5837F47C4720F /* Subscriptable.swift in Sources */,
-				E9DBA5D9013AD3C7819280B8AEFDE8B7 /* TransformerFactory.swift in Sources */,
-				4714123D504139B050193C0871D2E694 /* TransformFactor.swift in Sources */,
+				ADB1C99CA962BBC9EB5B62C7B0B60982 /* Cacheable.swift in Sources */,
+				5E22BEA4397033607F68AA1D6DD796B8 /* CachedOptions.swift in Sources */,
+				BEDDA86AEC8C92CA8D9536F9596C432F /* CacheX.swift in Sources */,
+				3C0E559265E94E6F0941A5272619F341 /* CacheX-dummy.m in Sources */,
+				A55B81BB2F1FA2C5880BF58C6F6C0A22 /* CryptoType.swift in Sources */,
+				2479BCF56E61592FA68DE8659099F136 /* Disk.swift in Sources */,
+				9FD6D5247B80086AB23DB1A4743FC3D2 /* Expiry.swift in Sources */,
+				1D32A676CAE74E95D03EC2E1C558B286 /* Extensions.swift in Sources */,
+				FA48596D81216465B465881446600204 /* ImageTransform.swift in Sources */,
+				095808D999EEDB4086735291F2EA6010 /* Memory.swift in Sources */,
+				C6A7890F65AB03D0BCA8742C2629F2EF /* OCStorage.swift in Sources */,
+				53AF4391B63D8657D9CA96A98A6BDF6B /* Storage.swift in Sources */,
+				D47E42BA39EA68238B559FC2CC9012CC /* Subscriptable.swift in Sources */,
+				C3E825EFE5C961B1E5E2C8D80BD4EBE6 /* TransformerFactory.swift in Sources */,
+				8933D4040D8D89690382F50978CD9E8B /* TransformFactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8BEBDF91209061671E0276DB084E2400 /* PBXTargetDependency */ = {
+		FB74BB2FF61FB3CB1C44213AD29E6749 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CacheX;
 			target = 6A5A50F08B9AB921E95DAB117E846CDD /* CacheX */;
-			targetProxy = 346C4D2BC4C6B86C9F6D0EAF70A13CF0 /* PBXContainerItemProxy */;
+			targetProxy = 39AEFCA40D093433732697B69C40282A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -562,44 +545,9 @@
 			};
 			name = Release;
 		};
-		99942D4CEA05279D5DFD94980CE08D39 /* Debug */ = {
+		6FBED91B28BF210EDF40BA9C3F52171D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78BAD79CB2FF37CB40AA13E18ACC7694 /* CacheX.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CacheX/CacheX-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CacheX/CacheX-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/CacheX/CacheX.modulemap";
-				PRODUCT_MODULE_NAME = CacheX;
-				PRODUCT_NAME = CacheX;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A98571870A7CA97641A828ABEA3BB1D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA3C2A4A5AD6F3C842E69ADDE0E6DB77 /* CacheX.release.xcconfig */;
+			baseConfigurationReference = 1AA85060007DFE384F20E8E45E767030 /* CacheX.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -671,6 +619,41 @@
 			};
 			name = Release;
 		};
+		F090956BC4BFA46B2A6AA5EE5780ADBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB121CB474A5B72EB7B8FC5BC821760 /* CacheX.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CacheX/CacheX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CacheX/CacheX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CacheX/CacheX.modulemap";
+				PRODUCT_MODULE_NAME = CacheX;
+				PRODUCT_NAME = CacheX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -692,11 +675,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEE4FB74ECCCAF8948D7083CD12DD2B4 /* Build configuration list for PBXNativeTarget "CacheX" */ = {
+		AD84CA42B766A9C3C9EEF0817529ADBB /* Build configuration list for PBXNativeTarget "CacheX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99942D4CEA05279D5DFD94980CE08D39 /* Debug */,
-				A98571870A7CA97641A828ABEA3BB1D9 /* Release */,
+				F090956BC4BFA46B2A6AA5EE5780ADBC /* Debug */,
+				6FBED91B28BF210EDF40BA9C3F52171D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

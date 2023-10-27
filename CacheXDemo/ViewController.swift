@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     }
     
     func setupCacheX() {
-        var storage = Storage<CacheModel>()
+        let storage = Storage<CacheModel>()
         
         var model = CacheModel()
         model.named = "Condy_258"

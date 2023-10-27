@@ -41,6 +41,10 @@ public struct Memory: Subscriptable {
 
 extension Memory: Cacheable {
     
+    public static var named: String {
+        "cache_memory"
+    }
+    
     public func read(key: String) -> Data? {
         self[key]
     }

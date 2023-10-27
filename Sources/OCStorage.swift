@@ -34,21 +34,21 @@ open class StorageModel: Codable { }
     /// The name of disk storage, this will be used as folder name within directory.
     @objc public var named: String = "DiskCached" {
         didSet {
-            storage.driver.disk.named = named
+            storage.disk.named = named
         }
     }
     
     /// The longest time duration in second of the cache being stored in disk. default is an week.
     @objc public var maxAgeLimit: TimeInterval = 60 * 60 * 24 * 7 {
         didSet {
-            storage.driver.disk.expiry = Expiry.seconds(maxAgeLimit)
+            storage.disk.expiry = Expiry.seconds(maxAgeLimit)
         }
     }
     
     /// The maximum total cost that the cache can hold before it starts evicting objects. default 20kb.
     @objc public var maxCountLimit: Disk.Byte = 20 * 1024 {
         didSet {
-            storage.driver.disk.maxCountLimit = maxCountLimit
+            storage.disk.maxCountLimit = maxCountLimit
         }
     }
     
@@ -56,7 +56,7 @@ open class StorageModel: Codable { }
     /// Memory cache will be purged automatically when a memory warning notification is received.
     @objc public var maxCostLimit: UInt = 00 {
         didSet {
-            storage.driver.memory.maxCostLimit = maxCostLimit
+            storage.memory.maxCostLimit = maxCostLimit
         }
     }
     
@@ -117,18 +117,18 @@ extension OCStorage {
     /// Get the disk cache size.
     @objc public var totalCost: Disk.Byte {
         get {
-            return storage.driver.disk.totalCost
+            return storage.disk.totalCost
         }
     }
     
     /// It's the file expired?
     @objc public func isExpired(forKey key: String) -> Bool {
-        return storage.driver.disk.isExpired(forKey: key)
+        return storage.disk.isExpired(forKey: key)
     }
     
     /// Remove expired files from disk.
     /// - Parameter completion: Removed file URLs callback.
     @objc public func removeExpiredURLsFromDisk(completion: ((_ expiredURLs: [URL]) -> Void)? = nil) {
-        storage.driver.disk.removeExpiredURLsFromDisk(completion: completion)
+        storage.disk.removeExpiredURLsFromDisk(completion: completion)
     }
 }
