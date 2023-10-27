@@ -1,5 +1,5 @@
 PODS:
-  - CacheX (0.0.2)
+  - CacheX (0.1.0)
 
 DEPENDENCIES:
   - CacheX (from `./`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  CacheX: 03f679c7d6c9e84f24b5e80057001483b74cebac
+  CacheX: de0d1a2a258828138875ba562bbf3dcfba64a5cc
 
 PODFILE CHECKSUM: 2648cc89ba06c410cd6e50291b50f2cc53c2c4a1
 
