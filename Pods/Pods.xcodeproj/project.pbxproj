@@ -7,199 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		011F0131577BF9E4627CADAD70DB8F27 /* CryptoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A053CD09C74D23A9E391C90B58636 /* CryptoType.swift */; };
-		08ABE3245E705F8921AB4E58506A777A /* Expiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2357E27478B3E002C66FD475AC77F8A /* Expiry.swift */; };
-		1754576829CDB58B609B92A2A493F243 /* Lemons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F70E4D2FFB8B394F8D0DA77E922048D0 /* Lemons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		247D56DDFE8A7AEE20A5C7CCC56A4A3A /* Pods-LemonsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C11A70FB37F36A0E223FA8232038B /* Pods-LemonsDemo-dummy.m */; };
-		2F6792B43DBFF6A47DA8FDCBEABDBE70 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B14ECC58C61195CF637B9AB2C9EFC /* Memory.swift */; };
-		33A7F58F908F9088EB53FA5226D71C39 /* TransformerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516FEC012FD5ECD7884FF231672C317 /* TransformerFactory.swift */; };
-		582963572A90238F466DEC4C6D33C76C /* OCStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0664C8FB2B533D82C4CED5215EB462 /* OCStorage.swift */; };
-		5CEA65952D3E2C2FD2E2A67CA5DD0085 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DD03A1817999BA1FDE3081BACB76E4 /* Wrapper.swift */; };
-		6806D0DE2E0ACE14534B18C677B2907F /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D34EE63F296A65D89CAC113C21DDDE /* Transformer.swift */; };
-		7FB6C83F9931CB55797477B70AABD28A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		868F9CF9A7B6E619E17D178ED72D08D0 /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76485E7C41A66DC09662176D202518 /* Data+Ext.swift */; };
-		90BA1E94F799F6C9C2A87CB4614EF883 /* Pods-LemonsDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2344091865A4FC552C96D21D7467269 /* Pods-LemonsDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97D85BAA4749C6D6BDC43FF9D525E107 /* CachedOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C075B41F015E78AB9C615FB2503E985 /* CachedOptions.swift */; };
-		A016B140D57DA61157D7FE0B7F5EC2B3 /* Pods-LemonsDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE321E2A9BE500DC9548DC935BA599E5 /* Pods-LemonsDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC6CD9146CF9A0474B008F2D0CAF33DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AC8173FBB6484D18226F3B4DB6FE01BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B0CA8D6A36A9F6A61877AAB5152E9176 /* Lemonsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC9109C03E939687207A97A998511F /* Lemonsable.swift */; };
-		B4D4CCD7704F089E767DA2A95AB8FAAF /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432908A5DD5CD3E4CCA1ADE477456E90 /* String+Ext.swift */; };
-		B6B536B6BACF727F33206ECF1E21EB6B /* Subscriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A407F822E01F6D7C47EF12A6926817 /* Subscriptable.swift */; };
-		C130A471330229E152CD42BA40A8E2CE /* Pods-LemonsDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2633ABA6491644E372F7E811A24D9B1 /* Pods-LemonsDemoTests-dummy.m */; };
-		C4DB060C8327DC50FFF388853272FBD4 /* CacheModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1FFD2218826FC825663B23D308E0FD /* CacheModel.swift */; };
-		CBEE87DD7749A8CA5F3D9F6E51FAF1DA /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D437EE686569F24BB414327DB5A01 /* Storage.swift */; };
-		EC776F0CA7DC73C7D4792E5DADC02DC3 /* Lemons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3A376FA127D266E3B10EC7B84B121 /* Lemons-dummy.m */; };
-		F0147C820B4E9512B6A382AE3C406758 /* Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD48EEACC564F9BA0C0B3A845D2A77E /* Disk.swift */; };
+		17A3986A30C8BDB9ECEAC81630E508AB /* Pods-CacheXDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 718D649D3705950EEAAEBADF0FBBB147 /* Pods-CacheXDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3608CA6756C6885FA13F51C862A682F6 /* CachedOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6820E79D840A9597C8FD36C877C563FD /* CachedOptions.swift */; };
+		376C813BC6389374A66B1DE882B19EDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3A467D83373F4A1FCC89B3E74CFE79AB /* Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DB489758EB8CC734BDC469D1F16BE5 /* Disk.swift */; };
+		4714123D504139B050193C0871D2E694 /* TransformFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EC8D86CB22C42104EB48F2AA3AB9A /* TransformFactor.swift */; };
+		560FDABAB2FC9EDC6119D3AF858AE3C7 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609316DE9235004C17CA172FFD43F253 /* Storage.swift */; };
+		6B8D971421ED18F7CD840A466D506889 /* CryptoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF596A55C541F4EE38C19ED3817B59E4 /* CryptoType.swift */; };
+		6DA4955CD89C24510F637EA4237B6055 /* CacheX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BCF6FC3C89E65FD02814FC99506377 /* CacheX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F33A3A21242A17E0CCFAF21859A59E8 /* CacheX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF09CBBB08B4506C5BA901C072CE43D /* CacheX.swift */; };
+		8C3C801395F9A9D294B0821E6CF87317 /* Pods-CacheXDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0C91E8CB22E76BE8696CB5A189F7B8 /* Pods-CacheXDemo-dummy.m */; };
+		92A858D348559C4BC713AA12BFC37C6B /* CacheX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 175C71609D3AED727C5C26C2D77365E3 /* CacheX-dummy.m */; };
+		C793512BADDE11E4ECE5837F47C4720F /* Subscriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E06BE48A3DEE2AEA6D80DACF456E54E /* Subscriptable.swift */; };
+		CC7B9C3A8BDE48CEB1608CA3DBACEC76 /* Cacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4407B89BA5DC8F22626BE4020E05 /* Cacheable.swift */; };
+		CFD12560A7E11215E2029356370569E9 /* OCStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789CF1B01DC2E74CC5D102A40FFB6F1 /* OCStorage.swift */; };
+		D70164EE58C187615AB457A26EFCAD08 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E140C311F5C232F169E2CDDA76FA7FF /* String+Ext.swift */; };
+		DC94485341AE306B95F71EB0BAC0104C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DD9575C786A20ABD09060FAFB87A9567 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D6C2DBE678C4869B413054B4DEDFB /* Date+Ext.swift */; };
+		E56A94B5264A04D51519131096E9225C /* Expiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC885C811E6F255374952470BACCEB6F /* Expiry.swift */; };
+		E9DBA5D9013AD3C7819280B8AEFDE8B7 /* TransformerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C331A81C47ED4A0318097AD186AC0FB0 /* TransformerFactory.swift */; };
+		F0DCAC743AFA7376A2885DD74B07188D /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8202FD21506116160BB518E2F47398CA /* Driver.swift */; };
+		F1A259208E9AFF02BEB9EF9AEF39FCED /* ImageTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E14021979943E81E813A0A9C83C634 /* ImageTransform.swift */; };
+		FBE44CB0F55E34A6033A745D72D0663E /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F075B8E803F0C2FD451E25F697A0269A /* Memory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		847E6FE0A02095517E3AAE8A99E0DB90 /* PBXContainerItemProxy */ = {
+		346C4D2BC4C6B86C9F6D0EAF70A13CF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 39679248F8442D9C1C93539872C622A4;
-			remoteInfo = "Pods-LemonsDemo";
-		};
-		8F43D9871A20E1791A0CF924AADA2A51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6484E41F8A7582CE40BF9A15444D163D;
-			remoteInfo = Lemons;
-		};
-		A1CDB87F77DE0CCB0CB660C9A0948FA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6484E41F8A7582CE40BF9A15444D163D;
-			remoteInfo = Lemons;
+			remoteGlobalIDString = 6A5A50F08B9AB921E95DAB117E846CDD;
+			remoteInfo = CacheX;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BD48EEACC564F9BA0C0B3A845D2A77E /* Disk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disk.swift; path = Sources/Disk.swift; sourceTree = "<group>"; };
-		0E2C11A70FB37F36A0E223FA8232038B /* Pods-LemonsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LemonsDemo-dummy.m"; sourceTree = "<group>"; };
-		18C3A376FA127D266E3B10EC7B84B121 /* Lemons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Lemons-dummy.m"; sourceTree = "<group>"; };
-		1ED234AB5478D8C55F5A48998DE68811 /* Pods-LemonsDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LemonsDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		204A1C503AA9420A5C88B475003255D8 /* Pods-LemonsDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LemonsDemo.modulemap"; sourceTree = "<group>"; };
-		2286EEB3770BDF8FA872D212D107D0ED /* Lemons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lemons.release.xcconfig; sourceTree = "<group>"; };
-		301D9603CED54E4E1548287059F3C01D /* Pods-LemonsDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LemonsDemoTests-Info.plist"; sourceTree = "<group>"; };
-		3516FEC012FD5ECD7884FF231672C317 /* TransformerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransformerFactory.swift; sourceTree = "<group>"; };
-		413D437EE686569F24BB414327DB5A01 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Storage.swift; sourceTree = "<group>"; };
-		432908A5DD5CD3E4CCA1ADE477456E90 /* String+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
-		49039E8F306C1DDB5C1455A6C3085C8E /* Lemons */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Lemons; path = Lemons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49A0FA360D9DD171FFA7F5ADB31DE167 /* Pods-LemonsDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LemonsDemoTests.modulemap"; sourceTree = "<group>"; };
-		4E0B14ECC58C61195CF637B9AB2C9EFC /* Memory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Memory.swift; path = Sources/Memory.swift; sourceTree = "<group>"; };
-		5458672CF6C5FA88DE2FADB556A92A9B /* Pods-LemonsDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LemonsDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		55A407F822E01F6D7C47EF12A6926817 /* Subscriptable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Subscriptable.swift; sourceTree = "<group>"; };
-		5E5A80B54086801793C62B5DCA51B40B /* Pods-LemonsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LemonsDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5E87C5DFB99B2EF64260BDF90088E358 /* Pods-LemonsDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LemonsDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		63E613743CD22C6B006108FFD0CA2DA6 /* Lemons.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Lemons.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		64DD03A1817999BA1FDE3081BACB76E4 /* Wrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		02E14021979943E81E813A0A9C83C634 /* ImageTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageTransform.swift; sourceTree = "<group>"; };
+		0DDDD720945F54575ADA5BACD7F6C823 /* Pods-CacheXDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CacheXDemo.release.xcconfig"; sourceTree = "<group>"; };
+		175C71609D3AED727C5C26C2D77365E3 /* CacheX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CacheX-dummy.m"; sourceTree = "<group>"; };
+		1D1A4407B89BA5DC8F22626BE4020E05 /* Cacheable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cacheable.swift; path = Sources/Cacheable.swift; sourceTree = "<group>"; };
+		24F33DFE1DCFA2109599574D43DE0587 /* CacheX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CacheX.modulemap; sourceTree = "<group>"; };
+		2789CF1B01DC2E74CC5D102A40FFB6F1 /* OCStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OCStorage.swift; path = Sources/OCStorage.swift; sourceTree = "<group>"; };
+		2A5265788CD9A7671A8A83E199466D13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2AF09CBBB08B4506C5BA901C072CE43D /* CacheX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CacheX.swift; sourceTree = "<group>"; };
+		2CA6588051AAA1E8DE263D9D47F7C2BF /* CacheX */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CacheX; path = CacheX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7EC8D86CB22C42104EB48F2AA3AB9A /* TransformFactor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransformFactor.swift; sourceTree = "<group>"; };
+		3E140C311F5C232F169E2CDDA76FA7FF /* String+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		4AF387E6B685ECFC8F816AA5D8C885EC /* Pods-CacheXDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CacheXDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		50BCF6FC3C89E65FD02814FC99506377 /* CacheX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CacheX-umbrella.h"; sourceTree = "<group>"; };
+		512D6C2DBE678C4869B413054B4DEDFB /* Date+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		56D2F7F500E6B36F678B650EB949A55C /* CacheX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CacheX-prefix.pch"; sourceTree = "<group>"; };
+		596798954A437070F8F71B1D2C292280 /* Pods-CacheXDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CacheXDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5E06BE48A3DEE2AEA6D80DACF456E54E /* Subscriptable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Subscriptable.swift; sourceTree = "<group>"; };
+		609316DE9235004C17CA172FFD43F253 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Storage.swift; sourceTree = "<group>"; };
+		6820E79D840A9597C8FD36C877C563FD /* CachedOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CachedOptions.swift; sourceTree = "<group>"; };
+		718D649D3705950EEAAEBADF0FBBB147 /* Pods-CacheXDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CacheXDemo-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73EF0E1D1F875AA13598A7F7225C0B2D /* Lemons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lemons-prefix.pch"; sourceTree = "<group>"; };
-		7940A155B0B8FCDC6BF960D9E4164068 /* Pods-LemonsDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LemonsDemo"; path = Pods_LemonsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C075B41F015E78AB9C615FB2503E985 /* CachedOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CachedOptions.swift; sourceTree = "<group>"; };
-		7C34F5B7E8A3A1998F4949A509286BFE /* Pods-LemonsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LemonsDemo.release.xcconfig"; sourceTree = "<group>"; };
-		7F1C710ECA231A2FD9EF64F291885DD2 /* Pods-LemonsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LemonsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		83884ED8AD5078138D4D0399E5E12E00 /* Pods-LemonsDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LemonsDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8D76485E7C41A66DC09662176D202518 /* Data+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+Ext.swift"; sourceTree = "<group>"; };
-		9A1FFD2218826FC825663B23D308E0FD /* CacheModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CacheModel.swift; sourceTree = "<group>"; };
+		78BAD79CB2FF37CB40AA13E18ACC7694 /* CacheX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CacheX.debug.xcconfig; sourceTree = "<group>"; };
+		791240B2FFB785BD802C8F0BEDB2981F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7A6101E027219F896DF47063DFD22600 /* CacheX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CacheX.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8202FD21506116160BB518E2F47398CA /* Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = Sources/Driver.swift; sourceTree = "<group>"; };
+		9574AD515FD26E348B35E3EA164438A0 /* CacheX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CacheX-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A215882FC977119C03D0E4ABB1C497DF /* Lemons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lemons.debug.xcconfig; sourceTree = "<group>"; };
-		A2344091865A4FC552C96D21D7467269 /* Pods-LemonsDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LemonsDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		AA87FAB4FD0DD2587B87A65598BC8D2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		AE321E2A9BE500DC9548DC935BA599E5 /* Pods-LemonsDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LemonsDemo-umbrella.h"; sourceTree = "<group>"; };
-		B34A1D6924E7CF1EF48E69F83DA67A79 /* Pods-LemonsDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LemonsDemo-Info.plist"; sourceTree = "<group>"; };
-		B6E59ED59DD023F1C3AB6D3680E76297 /* Pods-LemonsDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LemonsDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C30FE7DD53337602BF0EA94C9A803FB1 /* Pods-LemonsDemoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LemonsDemoTests"; path = Pods_LemonsDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9D34EE63F296A65D89CAC113C21DDDE /* Transformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Transformer.swift; sourceTree = "<group>"; };
-		CE3A053CD09C74D23A9E391C90B58636 /* CryptoType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoType.swift; sourceTree = "<group>"; };
-		D2357E27478B3E002C66FD475AC77F8A /* Expiry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Expiry.swift; sourceTree = "<group>"; };
-		D2633ABA6491644E372F7E811A24D9B1 /* Pods-LemonsDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LemonsDemoTests-dummy.m"; sourceTree = "<group>"; };
-		D5FC9109C03E939687207A97A998511F /* Lemonsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lemonsable.swift; path = Sources/Lemonsable.swift; sourceTree = "<group>"; };
-		D82788994DF00D4CE0F4FD7A36A3C99C /* Lemons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Lemons-Info.plist"; sourceTree = "<group>"; };
-		DF83AB469946AF548306DEABE3BA5747 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F09F59359A150633389A9805101FA84D /* Lemons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Lemons.modulemap; sourceTree = "<group>"; };
-		F70E4D2FFB8B394F8D0DA77E922048D0 /* Lemons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lemons-umbrella.h"; sourceTree = "<group>"; };
-		FC0664C8FB2B533D82C4CED5215EB462 /* OCStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OCStorage.swift; path = Sources/OCStorage.swift; sourceTree = "<group>"; };
+		9F8185FA62C22C3F835AB2C3D033EAF6 /* Pods-CacheXDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CacheXDemo-Info.plist"; sourceTree = "<group>"; };
+		B675AF8533EC9455AD93B7E5A8E78C25 /* Pods-CacheXDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CacheXDemo"; path = Pods_CacheXDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C331A81C47ED4A0318097AD186AC0FB0 /* TransformerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransformerFactory.swift; sourceTree = "<group>"; };
+		C817A58ABF3DC09D49093AD2AAF5295D /* Pods-CacheXDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CacheXDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA3C2A4A5AD6F3C842E69ADDE0E6DB77 /* CacheX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CacheX.release.xcconfig; sourceTree = "<group>"; };
+		CE0C91E8CB22E76BE8696CB5A189F7B8 /* Pods-CacheXDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CacheXDemo-dummy.m"; sourceTree = "<group>"; };
+		EA1C2FC5075BC298A422E6A0662B251B /* Pods-CacheXDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CacheXDemo.modulemap"; sourceTree = "<group>"; };
+		F075B8E803F0C2FD451E25F697A0269A /* Memory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Memory.swift; path = Sources/Memory.swift; sourceTree = "<group>"; };
+		F3DB489758EB8CC734BDC469D1F16BE5 /* Disk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disk.swift; path = Sources/Disk.swift; sourceTree = "<group>"; };
+		FC885C811E6F255374952470BACCEB6F /* Expiry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Expiry.swift; sourceTree = "<group>"; };
+		FF596A55C541F4EE38C19ED3817B59E4 /* CryptoType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		571632B4A8B19161A426715963FCD7BE /* Frameworks */ = {
+		56BCAB146E9350B5B66D80AC136AD3CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC8173FBB6484D18226F3B4DB6FE01BD /* Foundation.framework in Frameworks */,
+				DC94485341AE306B95F71EB0BAC0104C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BAF69C5AF4490B252EEECCF00A71106 /* Frameworks */ = {
+		EE8C7901DB2715B19FA647CF10D3121C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FB6C83F9931CB55797477B70AABD28A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8492DF7A1545AA041CAAAD4A8D9CB7F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC6CD9146CF9A0474B008F2D0CAF33DC /* Foundation.framework in Frameworks */,
+				376C813BC6389374A66B1DE882B19EDD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03DC6889DC3B00CE364412DB3BAB69F2 /* Pods-LemonsDemo */ = {
+		072959786805296220308DF8F62664D6 /* Pods-CacheXDemo */ = {
 			isa = PBXGroup;
 			children = (
-				204A1C503AA9420A5C88B475003255D8 /* Pods-LemonsDemo.modulemap */,
-				83884ED8AD5078138D4D0399E5E12E00 /* Pods-LemonsDemo-acknowledgements.markdown */,
-				5E87C5DFB99B2EF64260BDF90088E358 /* Pods-LemonsDemo-acknowledgements.plist */,
-				0E2C11A70FB37F36A0E223FA8232038B /* Pods-LemonsDemo-dummy.m */,
-				B34A1D6924E7CF1EF48E69F83DA67A79 /* Pods-LemonsDemo-Info.plist */,
-				AE321E2A9BE500DC9548DC935BA599E5 /* Pods-LemonsDemo-umbrella.h */,
-				5E5A80B54086801793C62B5DCA51B40B /* Pods-LemonsDemo.debug.xcconfig */,
-				7C34F5B7E8A3A1998F4949A509286BFE /* Pods-LemonsDemo.release.xcconfig */,
+				EA1C2FC5075BC298A422E6A0662B251B /* Pods-CacheXDemo.modulemap */,
+				C817A58ABF3DC09D49093AD2AAF5295D /* Pods-CacheXDemo-acknowledgements.markdown */,
+				4AF387E6B685ECFC8F816AA5D8C885EC /* Pods-CacheXDemo-acknowledgements.plist */,
+				CE0C91E8CB22E76BE8696CB5A189F7B8 /* Pods-CacheXDemo-dummy.m */,
+				9F8185FA62C22C3F835AB2C3D033EAF6 /* Pods-CacheXDemo-Info.plist */,
+				718D649D3705950EEAAEBADF0FBBB147 /* Pods-CacheXDemo-umbrella.h */,
+				596798954A437070F8F71B1D2C292280 /* Pods-CacheXDemo.debug.xcconfig */,
+				0DDDD720945F54575ADA5BACD7F6C823 /* Pods-CacheXDemo.release.xcconfig */,
 			);
-			name = "Pods-LemonsDemo";
-			path = "Target Support Files/Pods-LemonsDemo";
+			name = "Pods-CacheXDemo";
+			path = "Target Support Files/Pods-CacheXDemo";
 			sourceTree = "<group>";
 		};
-		0F83709C466078972EF00DF5BAAC2519 /* Pods-LemonsDemoTests */ = {
+		36DCA37D59A802835AC5836F8A2C6DE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49A0FA360D9DD171FFA7F5ADB31DE167 /* Pods-LemonsDemoTests.modulemap */,
-				5458672CF6C5FA88DE2FADB556A92A9B /* Pods-LemonsDemoTests-acknowledgements.markdown */,
-				B6E59ED59DD023F1C3AB6D3680E76297 /* Pods-LemonsDemoTests-acknowledgements.plist */,
-				D2633ABA6491644E372F7E811A24D9B1 /* Pods-LemonsDemoTests-dummy.m */,
-				301D9603CED54E4E1548287059F3C01D /* Pods-LemonsDemoTests-Info.plist */,
-				A2344091865A4FC552C96D21D7467269 /* Pods-LemonsDemoTests-umbrella.h */,
-				1ED234AB5478D8C55F5A48998DE68811 /* Pods-LemonsDemoTests.debug.xcconfig */,
-				7F1C710ECA231A2FD9EF64F291885DD2 /* Pods-LemonsDemoTests.release.xcconfig */,
+				2CA6588051AAA1E8DE263D9D47F7C2BF /* CacheX */,
+				B675AF8533EC9455AD93B7E5A8E78C25 /* Pods-CacheXDemo */,
 			);
-			name = "Pods-LemonsDemoTests";
-			path = "Target Support Files/Pods-LemonsDemoTests";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		27EC159EEB8530082D0CAD759ADD0370 /* Pod */ = {
+		4199A22125356111180FD22A8652C52F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				63E613743CD22C6B006108FFD0CA2DA6 /* Lemons.podspec */,
-				AA87FAB4FD0DD2587B87A65598BC8D2E /* LICENSE */,
-				DF83AB469946AF548306DEABE3BA5747 /* README.md */,
+				072959786805296220308DF8F62664D6 /* Pods-CacheXDemo */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2B184DC818D597971EA015962960D828 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				8D76485E7C41A66DC09662176D202518 /* Data+Ext.swift */,
-				432908A5DD5CD3E4CCA1ADE477456E90 /* String+Ext.swift */,
-				64DD03A1817999BA1FDE3081BACB76E4 /* Wrapper.swift */,
-			);
-			name = Extensions;
-			path = Sources/Extensions;
-			sourceTree = "<group>";
-		};
-		488D668BD40D76219399E2960C4FD6C9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F09F59359A150633389A9805101FA84D /* Lemons.modulemap */,
-				18C3A376FA127D266E3B10EC7B84B121 /* Lemons-dummy.m */,
-				D82788994DF00D4CE0F4FD7A36A3C99C /* Lemons-Info.plist */,
-				73EF0E1D1F875AA13598A7F7225C0B2D /* Lemons-prefix.pch */,
-				F70E4D2FFB8B394F8D0DA77E922048D0 /* Lemons-umbrella.h */,
-				A215882FC977119C03D0E4ABB1C497DF /* Lemons.debug.xcconfig */,
-				2286EEB3770BDF8FA872D212D107D0ED /* Lemons.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/Lemons";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -210,40 +143,100 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8C0C8C2DF9F17CEA60968A6043897578 /* Lemons */ = {
+		6FFC97F9B618B353700FF27AEFF14D48 /* Transforms */ = {
 			isa = PBXGroup;
 			children = (
-				0BD48EEACC564F9BA0C0B3A845D2A77E /* Disk.swift */,
-				D5FC9109C03E939687207A97A998511F /* Lemonsable.swift */,
-				4E0B14ECC58C61195CF637B9AB2C9EFC /* Memory.swift */,
-				FC0664C8FB2B533D82C4CED5215EB462 /* OCStorage.swift */,
-				413D437EE686569F24BB414327DB5A01 /* Storage.swift */,
-				2B184DC818D597971EA015962960D828 /* Extensions */,
-				27EC159EEB8530082D0CAD759ADD0370 /* Pod */,
-				E39E7CE20C66E06FD0BEA2C883FB1967 /* Setup */,
-				488D668BD40D76219399E2960C4FD6C9 /* Support Files */,
+				02E14021979943E81E813A0A9C83C634 /* ImageTransform.swift */,
+				C331A81C47ED4A0318097AD186AC0FB0 /* TransformerFactory.swift */,
+				2F7EC8D86CB22C42104EB48F2AA3AB9A /* TransformFactor.swift */,
 			);
-			name = Lemons;
+			name = Transforms;
+			path = Sources/Transforms;
+			sourceTree = "<group>";
+		};
+		7DA6BFF6E91615EC6D84ECBC546D6B14 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7A6101E027219F896DF47063DFD22600 /* CacheX.podspec */,
+				791240B2FFB785BD802C8F0BEDB2981F /* LICENSE */,
+				2A5265788CD9A7671A8A83E199466D13 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8AFBD83D72C00258577C4B3AF66A5D28 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0C41DBFF694D9A1EFFAD76E60E24B34 /* CacheX */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		977ED169B5444C69DCBF8E20FC8FD294 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				6820E79D840A9597C8FD36C877C563FD /* CachedOptions.swift */,
+				2AF09CBBB08B4506C5BA901C072CE43D /* CacheX.swift */,
+				FF596A55C541F4EE38C19ED3817B59E4 /* CryptoType.swift */,
+				FC885C811E6F255374952470BACCEB6F /* Expiry.swift */,
+				5E06BE48A3DEE2AEA6D80DACF456E54E /* Subscriptable.swift */,
+			);
+			name = Setup;
+			path = Sources/Setup;
+			sourceTree = "<group>";
+		};
+		B0C41DBFF694D9A1EFFAD76E60E24B34 /* CacheX */ = {
+			isa = PBXGroup;
+			children = (
+				1D1A4407B89BA5DC8F22626BE4020E05 /* Cacheable.swift */,
+				F3DB489758EB8CC734BDC469D1F16BE5 /* Disk.swift */,
+				8202FD21506116160BB518E2F47398CA /* Driver.swift */,
+				F075B8E803F0C2FD451E25F697A0269A /* Memory.swift */,
+				2789CF1B01DC2E74CC5D102A40FFB6F1 /* OCStorage.swift */,
+				609316DE9235004C17CA172FFD43F253 /* Storage.swift */,
+				B52EBC808C61BE792BC71A90B730FA49 /* Extensions */,
+				7DA6BFF6E91615EC6D84ECBC546D6B14 /* Pod */,
+				977ED169B5444C69DCBF8E20FC8FD294 /* Setup */,
+				C00E7016E89354B84609934B1923661C /* Support Files */,
+				6FFC97F9B618B353700FF27AEFF14D48 /* Transforms */,
+			);
+			name = CacheX;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		B9032DB69044893DF000AE9C2102B61A /* Targets Support Files */ = {
+		B52EBC808C61BE792BC71A90B730FA49 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				03DC6889DC3B00CE364412DB3BAB69F2 /* Pods-LemonsDemo */,
-				0F83709C466078972EF00DF5BAAC2519 /* Pods-LemonsDemoTests */,
+				512D6C2DBE678C4869B413054B4DEDFB /* Date+Ext.swift */,
+				3E140C311F5C232F169E2CDDA76FA7FF /* String+Ext.swift */,
 			);
-			name = "Targets Support Files";
+			name = Extensions;
+			path = Sources/Extensions;
+			sourceTree = "<group>";
+		};
+		C00E7016E89354B84609934B1923661C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24F33DFE1DCFA2109599574D43DE0587 /* CacheX.modulemap */,
+				175C71609D3AED727C5C26C2D77365E3 /* CacheX-dummy.m */,
+				9574AD515FD26E348B35E3EA164438A0 /* CacheX-Info.plist */,
+				56D2F7F500E6B36F678B650EB949A55C /* CacheX-prefix.pch */,
+				50BCF6FC3C89E65FD02814FC99506377 /* CacheX-umbrella.h */,
+				78BAD79CB2FF37CB40AA13E18ACC7694 /* CacheX.debug.xcconfig */,
+				CA3C2A4A5AD6F3C842E69ADDE0E6DB77 /* CacheX.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/CacheX";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D729D86BF35DA62FAA2D1454AFFC26FA /* Development Pods */,
+				8AFBD83D72C00258577C4B3AF66A5D28 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D67B88A7BA7461CA4CE794CB5533B2B3 /* Products */,
-				B9032DB69044893DF000AE9C2102B61A /* Targets Support Files */,
+				36DCA37D59A802835AC5836F8A2C6DE1 /* Products */,
+				4199A22125356111180FD22A8652C52F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -255,124 +248,63 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D67B88A7BA7461CA4CE794CB5533B2B3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				49039E8F306C1DDB5C1455A6C3085C8E /* Lemons */,
-				7940A155B0B8FCDC6BF960D9E4164068 /* Pods-LemonsDemo */,
-				C30FE7DD53337602BF0EA94C9A803FB1 /* Pods-LemonsDemoTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D729D86BF35DA62FAA2D1454AFFC26FA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8C0C8C2DF9F17CEA60968A6043897578 /* Lemons */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E39E7CE20C66E06FD0BEA2C883FB1967 /* Setup */ = {
-			isa = PBXGroup;
-			children = (
-				7C075B41F015E78AB9C615FB2503E985 /* CachedOptions.swift */,
-				9A1FFD2218826FC825663B23D308E0FD /* CacheModel.swift */,
-				CE3A053CD09C74D23A9E391C90B58636 /* CryptoType.swift */,
-				D2357E27478B3E002C66FD475AC77F8A /* Expiry.swift */,
-				55A407F822E01F6D7C47EF12A6926817 /* Subscriptable.swift */,
-				C9D34EE63F296A65D89CAC113C21DDDE /* Transformer.swift */,
-				3516FEC012FD5ECD7884FF231672C317 /* TransformerFactory.swift */,
-			);
-			name = Setup;
-			path = Sources/Setup;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		63F2D12EC99E539B6A4BA4DE7F72E1D1 /* Headers */ = {
+		28ABCDC9A715D0F24AE84C485C9A0AB1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90BA1E94F799F6C9C2A87CB4614EF883 /* Pods-LemonsDemoTests-umbrella.h in Headers */,
+				17A3986A30C8BDB9ECEAC81630E508AB /* Pods-CacheXDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC3C2EE5A1B12A9964AE3ED0D75BC27F /* Headers */ = {
+		507E5006690173F62FA59BBC51A063D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1754576829CDB58B609B92A2A493F243 /* Lemons-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDF785F3F9FDA490FA48CCEC3E0F3FBD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A016B140D57DA61157D7FE0B7F5EC2B3 /* Pods-LemonsDemo-umbrella.h in Headers */,
+				6DA4955CD89C24510F637EA4237B6055 /* CacheX-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		39679248F8442D9C1C93539872C622A4 /* Pods-LemonsDemo */ = {
+		6A5A50F08B9AB921E95DAB117E846CDD /* CacheX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74167425D478E3C5C4C18742F4AF177B /* Build configuration list for PBXNativeTarget "Pods-LemonsDemo" */;
+			buildConfigurationList = BEE4FB74ECCCAF8948D7083CD12DD2B4 /* Build configuration list for PBXNativeTarget "CacheX" */;
 			buildPhases = (
-				EDF785F3F9FDA490FA48CCEC3E0F3FBD /* Headers */,
-				81487514D7CFEF8ECB0A6EBE2CBD1FB2 /* Sources */,
-				E8492DF7A1545AA041CAAAD4A8D9CB7F /* Frameworks */,
-				F09C907A5A5FF5C24BCA6ABB41DA900D /* Resources */,
+				507E5006690173F62FA59BBC51A063D9 /* Headers */,
+				38E7908EF84CB214B34E61DC13D8D37B /* Sources */,
+				56BCAB146E9350B5B66D80AC136AD3CC /* Frameworks */,
+				54A6BAA59F98786470641B1BCB6EBECC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B42D422993251950D2AA7FD0507BB6C9 /* PBXTargetDependency */,
 			);
-			name = "Pods-LemonsDemo";
-			productName = Pods_LemonsDemo;
-			productReference = 7940A155B0B8FCDC6BF960D9E4164068 /* Pods-LemonsDemo */;
+			name = CacheX;
+			productName = CacheX;
+			productReference = 2CA6588051AAA1E8DE263D9D47F7C2BF /* CacheX */;
 			productType = "com.apple.product-type.framework";
 		};
-		4FD4313D02F398EE8AD5E3124598A1BB /* Pods-LemonsDemoTests */ = {
+		8B7AEF3BDCEF35B6E52F2DF53F8C01BB /* Pods-CacheXDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9969E68E3A65EA313D4DE7C64D66422F /* Build configuration list for PBXNativeTarget "Pods-LemonsDemoTests" */;
+			buildConfigurationList = 9F585C2BE535B432F858A62885BA418F /* Build configuration list for PBXNativeTarget "Pods-CacheXDemo" */;
 			buildPhases = (
-				63F2D12EC99E539B6A4BA4DE7F72E1D1 /* Headers */,
-				09CAA88C849F345CBBC40AD852D3D8B5 /* Sources */,
-				571632B4A8B19161A426715963FCD7BE /* Frameworks */,
-				B46CA118F03B55201A5E3BF55ADEE0EE /* Resources */,
+				28ABCDC9A715D0F24AE84C485C9A0AB1 /* Headers */,
+				086259724E579C0A49812ED84AE9B413 /* Sources */,
+				EE8C7901DB2715B19FA647CF10D3121C /* Frameworks */,
+				ACA52FAD48AF6575DF7BACD68D7F43F3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E2AF73733DA924145EF97288D3F2121C /* PBXTargetDependency */,
-				FCDAEAA9132CC384C4DAC9E17C33F767 /* PBXTargetDependency */,
+				8BEBDF91209061671E0276DB084E2400 /* PBXTargetDependency */,
 			);
-			name = "Pods-LemonsDemoTests";
-			productName = Pods_LemonsDemoTests;
-			productReference = C30FE7DD53337602BF0EA94C9A803FB1 /* Pods-LemonsDemoTests */;
-			productType = "com.apple.product-type.framework";
-		};
-		6484E41F8A7582CE40BF9A15444D163D /* Lemons */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 64A37791BB02FF752348C17D91EB4EF8 /* Build configuration list for PBXNativeTarget "Lemons" */;
-			buildPhases = (
-				DC3C2EE5A1B12A9964AE3ED0D75BC27F /* Headers */,
-				8C5A2E324338D7723A06BB4E039A2650 /* Sources */,
-				5BAF69C5AF4490B252EEECCF00A71106 /* Frameworks */,
-				F4C5E21BACE73BF4EBAF9B36DAF8B735 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Lemons;
-			productName = Lemons;
-			productReference = 49039E8F306C1DDB5C1455A6C3085C8E /* Lemons */;
+			name = "Pods-CacheXDemo";
+			productName = Pods_CacheXDemo;
+			productReference = B675AF8533EC9455AD93B7E5A8E78C25 /* Pods-CacheXDemo */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -393,33 +325,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D67B88A7BA7461CA4CE794CB5533B2B3 /* Products */;
+			productRefGroup = 36DCA37D59A802835AC5836F8A2C6DE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6484E41F8A7582CE40BF9A15444D163D /* Lemons */,
-				39679248F8442D9C1C93539872C622A4 /* Pods-LemonsDemo */,
-				4FD4313D02F398EE8AD5E3124598A1BB /* Pods-LemonsDemoTests */,
+				6A5A50F08B9AB921E95DAB117E846CDD /* CacheX */,
+				8B7AEF3BDCEF35B6E52F2DF53F8C01BB /* Pods-CacheXDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B46CA118F03B55201A5E3BF55ADEE0EE /* Resources */ = {
+		54A6BAA59F98786470641B1BCB6EBECC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F09C907A5A5FF5C24BCA6ABB41DA900D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4C5E21BACE73BF4EBAF9B36DAF8B735 /* Resources */ = {
+		ACA52FAD48AF6575DF7BACD68D7F43F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,108 +353,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		09CAA88C849F345CBBC40AD852D3D8B5 /* Sources */ = {
+		086259724E579C0A49812ED84AE9B413 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C130A471330229E152CD42BA40A8E2CE /* Pods-LemonsDemoTests-dummy.m in Sources */,
+				8C3C801395F9A9D294B0821E6CF87317 /* Pods-CacheXDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81487514D7CFEF8ECB0A6EBE2CBD1FB2 /* Sources */ = {
+		38E7908EF84CB214B34E61DC13D8D37B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				247D56DDFE8A7AEE20A5C7CCC56A4A3A /* Pods-LemonsDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C5A2E324338D7723A06BB4E039A2650 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				97D85BAA4749C6D6BDC43FF9D525E107 /* CachedOptions.swift in Sources */,
-				C4DB060C8327DC50FFF388853272FBD4 /* CacheModel.swift in Sources */,
-				011F0131577BF9E4627CADAD70DB8F27 /* CryptoType.swift in Sources */,
-				868F9CF9A7B6E619E17D178ED72D08D0 /* Data+Ext.swift in Sources */,
-				F0147C820B4E9512B6A382AE3C406758 /* Disk.swift in Sources */,
-				08ABE3245E705F8921AB4E58506A777A /* Expiry.swift in Sources */,
-				EC776F0CA7DC73C7D4792E5DADC02DC3 /* Lemons-dummy.m in Sources */,
-				B0CA8D6A36A9F6A61877AAB5152E9176 /* Lemonsable.swift in Sources */,
-				2F6792B43DBFF6A47DA8FDCBEABDBE70 /* Memory.swift in Sources */,
-				582963572A90238F466DEC4C6D33C76C /* OCStorage.swift in Sources */,
-				CBEE87DD7749A8CA5F3D9F6E51FAF1DA /* Storage.swift in Sources */,
-				B4D4CCD7704F089E767DA2A95AB8FAAF /* String+Ext.swift in Sources */,
-				B6B536B6BACF727F33206ECF1E21EB6B /* Subscriptable.swift in Sources */,
-				6806D0DE2E0ACE14534B18C677B2907F /* Transformer.swift in Sources */,
-				33A7F58F908F9088EB53FA5226D71C39 /* TransformerFactory.swift in Sources */,
-				5CEA65952D3E2C2FD2E2A67CA5DD0085 /* Wrapper.swift in Sources */,
+				CC7B9C3A8BDE48CEB1608CA3DBACEC76 /* Cacheable.swift in Sources */,
+				3608CA6756C6885FA13F51C862A682F6 /* CachedOptions.swift in Sources */,
+				6F33A3A21242A17E0CCFAF21859A59E8 /* CacheX.swift in Sources */,
+				92A858D348559C4BC713AA12BFC37C6B /* CacheX-dummy.m in Sources */,
+				6B8D971421ED18F7CD840A466D506889 /* CryptoType.swift in Sources */,
+				DD9575C786A20ABD09060FAFB87A9567 /* Date+Ext.swift in Sources */,
+				3A467D83373F4A1FCC89B3E74CFE79AB /* Disk.swift in Sources */,
+				F0DCAC743AFA7376A2885DD74B07188D /* Driver.swift in Sources */,
+				E56A94B5264A04D51519131096E9225C /* Expiry.swift in Sources */,
+				F1A259208E9AFF02BEB9EF9AEF39FCED /* ImageTransform.swift in Sources */,
+				FBE44CB0F55E34A6033A745D72D0663E /* Memory.swift in Sources */,
+				CFD12560A7E11215E2029356370569E9 /* OCStorage.swift in Sources */,
+				560FDABAB2FC9EDC6119D3AF858AE3C7 /* Storage.swift in Sources */,
+				D70164EE58C187615AB457A26EFCAD08 /* String+Ext.swift in Sources */,
+				C793512BADDE11E4ECE5837F47C4720F /* Subscriptable.swift in Sources */,
+				E9DBA5D9013AD3C7819280B8AEFDE8B7 /* TransformerFactory.swift in Sources */,
+				4714123D504139B050193C0871D2E694 /* TransformFactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B42D422993251950D2AA7FD0507BB6C9 /* PBXTargetDependency */ = {
+		8BEBDF91209061671E0276DB084E2400 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Lemons;
-			target = 6484E41F8A7582CE40BF9A15444D163D /* Lemons */;
-			targetProxy = 8F43D9871A20E1791A0CF924AADA2A51 /* PBXContainerItemProxy */;
-		};
-		E2AF73733DA924145EF97288D3F2121C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Lemons;
-			target = 6484E41F8A7582CE40BF9A15444D163D /* Lemons */;
-			targetProxy = A1CDB87F77DE0CCB0CB660C9A0948FA7 /* PBXContainerItemProxy */;
-		};
-		FCDAEAA9132CC384C4DAC9E17C33F767 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LemonsDemo";
-			target = 39679248F8442D9C1C93539872C622A4 /* Pods-LemonsDemo */;
-			targetProxy = 847E6FE0A02095517E3AAE8A99E0DB90 /* PBXContainerItemProxy */;
+			name = CacheX;
+			target = 6A5A50F08B9AB921E95DAB117E846CDD /* CacheX */;
+			targetProxy = 346C4D2BC4C6B86C9F6D0EAF70A13CF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		36EBB0A15EB271FCE2D1FF36D269564F /* Release */ = {
+		32E4EC10DEF956769461D19E5E153394 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2286EEB3770BDF8FA872D212D107D0ED /* Lemons.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Lemons/Lemons-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Lemons/Lemons-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Lemons/Lemons.modulemap";
-				PRODUCT_MODULE_NAME = Lemons;
-				PRODUCT_NAME = Lemons;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5E867E7E1802B442EDA806FA0AED1F48 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F1C710ECA231A2FD9EF64F291885DD2 /* Pods-LemonsDemoTests.release.xcconfig */;
+			baseConfigurationReference = 596798954A437070F8F71B1D2C292280 /* Pods-CacheXDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -542,54 +411,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LemonsDemoTests/Pods-LemonsDemoTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CacheXDemo/Pods-CacheXDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LemonsDemoTests/Pods-LemonsDemoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		71B8449944B93BA6257DE761ED63E415 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1ED234AB5478D8C55F5A48998DE68811 /* Pods-LemonsDemoTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LemonsDemoTests/Pods-LemonsDemoTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LemonsDemoTests/Pods-LemonsDemoTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CacheXDemo/Pods-CacheXDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -603,7 +434,7 @@
 			};
 			name = Debug;
 		};
-		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -656,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -669,7 +500,7 @@
 			};
 			name = Debug;
 		};
-		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -719,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -731,11 +562,10 @@
 			};
 			name = Release;
 		};
-		B44856A80E6777EF013053809E36A1E0 /* Debug */ = {
+		99942D4CEA05279D5DFD94980CE08D39 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E5A80B54086801793C62B5DCA51B40B /* Pods-LemonsDemo.debug.xcconfig */;
+			baseConfigurationReference = 78BAD79CB2FF37CB40AA13E18ACC7694 /* CacheX.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -745,32 +575,67 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LemonsDemo/Pods-LemonsDemo-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CacheX/CacheX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CacheX/CacheX-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LemonsDemo/Pods-LemonsDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/CacheX/CacheX.modulemap";
+				PRODUCT_MODULE_NAME = CacheX;
+				PRODUCT_NAME = CacheX;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D9F2E306AC838C22446EDB1D7780FF09 /* Release */ = {
+		A98571870A7CA97641A828ABEA3BB1D9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C34F5B7E8A3A1998F4949A509286BFE /* Pods-LemonsDemo.release.xcconfig */;
+			baseConfigurationReference = CA3C2A4A5AD6F3C842E69ADDE0E6DB77 /* CacheX.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CacheX/CacheX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CacheX/CacheX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CacheX/CacheX.modulemap";
+				PRODUCT_MODULE_NAME = CacheX;
+				PRODUCT_NAME = CacheX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDA45A0EC4C5CAC7D58E441888EDD806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDDD720945F54575ADA5BACD7F6C823 /* Pods-CacheXDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -782,16 +647,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LemonsDemo/Pods-LemonsDemo-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CacheXDemo/Pods-CacheXDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LemonsDemo/Pods-LemonsDemo.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CacheXDemo/Pods-CacheXDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -806,76 +671,32 @@
 			};
 			name = Release;
 		};
-		ED159FD84BA7DFCA8F935DB092FFDA6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A215882FC977119C03D0E4ABB1C497DF /* Lemons.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Lemons/Lemons-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Lemons/Lemons-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Lemons/Lemons.modulemap";
-				PRODUCT_MODULE_NAME = Lemons;
-				PRODUCT_NAME = Lemons;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
-				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64A37791BB02FF752348C17D91EB4EF8 /* Build configuration list for PBXNativeTarget "Lemons" */ = {
+		9F585C2BE535B432F858A62885BA418F /* Build configuration list for PBXNativeTarget "Pods-CacheXDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED159FD84BA7DFCA8F935DB092FFDA6B /* Debug */,
-				36EBB0A15EB271FCE2D1FF36D269564F /* Release */,
+				32E4EC10DEF956769461D19E5E153394 /* Debug */,
+				EDA45A0EC4C5CAC7D58E441888EDD806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74167425D478E3C5C4C18742F4AF177B /* Build configuration list for PBXNativeTarget "Pods-LemonsDemo" */ = {
+		BEE4FB74ECCCAF8948D7083CD12DD2B4 /* Build configuration list for PBXNativeTarget "CacheX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B44856A80E6777EF013053809E36A1E0 /* Debug */,
-				D9F2E306AC838C22446EDB1D7780FF09 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9969E68E3A65EA313D4DE7C64D66422F /* Build configuration list for PBXNativeTarget "Pods-LemonsDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71B8449944B93BA6257DE761ED63E415 /* Debug */,
-				5E867E7E1802B442EDA806FA0AED1F48 /* Release */,
+				99942D4CEA05279D5DFD94980CE08D39 /* Debug */,
+				A98571870A7CA97641A828ABEA3BB1D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

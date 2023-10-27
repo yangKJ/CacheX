@@ -1,6 +1,6 @@
 //
 //  Disk.swift
-//  Lemons
+//  CacheX
 //
 //  Created by Condy on 2023/3/23.
 //
@@ -26,7 +26,7 @@ public struct Disk {
     public init() { }
 }
 
-extension Disk: Lemonsable {
+extension Disk: Cacheable {
     
     public func read(key: String) -> Data? {
         /// 过期清除缓存

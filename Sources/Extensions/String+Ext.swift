@@ -1,15 +1,13 @@
 //
 //  String+Ext.swift
-//  Lemons
+//  CacheX
 //
-//  Created by Condy on 2023/4/4.
+//  Created by Condy on 2023/3/30.
 //
 
 import Foundation
 
-extension String: LemonsWrapper { }
-
-extension Lemon where Base == String {
+extension CacheXWrapper where Base == String {
     
     /// Encrypt strings.
     /// - Parameter type: Type of encryption.

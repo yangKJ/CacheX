@@ -1,16 +1,16 @@
 PODS:
-  - Lemons (0.0.8)
+  - CacheX (0.0.2)
 
 DEPENDENCIES:
-  - Lemons (from `./`)
+  - CacheX (from `./`)
 
 EXTERNAL SOURCES:
-  Lemons:
+  CacheX:
     :path: "./"
 
 SPEC CHECKSUMS:
-  Lemons: 6b7cc5ad1eeb2d5b635f01c0c8bbbbb309502bfa
+  CacheX: 03f679c7d6c9e84f24b5e80057001483b74cebac
 
-PODFILE CHECKSUM: be1fca2c514a0ab2fabc84298391796ecc70b5cc
+PODFILE CHECKSUM: 2648cc89ba06c410cd6e50291b50f2cc53c2c4a1
 
 COCOAPODS: 1.12.1

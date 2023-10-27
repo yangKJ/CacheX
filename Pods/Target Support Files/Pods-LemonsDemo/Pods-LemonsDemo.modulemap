@@ -1,6 +1,0 @@
-framework module Pods_LemonsDemo {
-  umbrella header "Pods-LemonsDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}

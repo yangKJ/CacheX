@@ -1,18 +1,20 @@
 //
 //  OCStorage.swift
-//  Lemons
+//  CacheX
 //
-//  Created by Condy on 2023/4/7.
+//  Created by Condy on 2023/4/8.
 //
 
 import Foundation
 import ObjectiveC
 
+open class StorageModel: Codable { }
+
 /// Compatible with OC to use this cache library.
 /// Some Swift methods, attributes, etc. Cannot be accessed in OC, so the bridge file is established.
 @objc public final class OCStorage: NSObject {
     
-    let storage: Storage<CacheModel>
+    let storage: Storage<StorageModel>
     
     @objc public let backgroundQueue: DispatchQueue
     
@@ -25,28 +27,28 @@ import ObjectiveC
     }
     
     @objc public override convenience init() {
-        let queue = DispatchQueue(label: "com.condy.lemons.objc.cached.queue", qos: .background, attributes: [.concurrent])
+        let queue = DispatchQueue(label: "com.condy.CacheX.objc.cached.queue", qos: .background, attributes: [.concurrent])
         self.init(queue: queue)
     }
     
     /// The name of disk storage, this will be used as folder name within directory.
     @objc public var named: String = "DiskCached" {
         didSet {
-            storage.disk.named = named
+            storage.driver.disk.named = named
         }
     }
     
     /// The longest time duration in second of the cache being stored in disk. default is an week.
     @objc public var maxAgeLimit: TimeInterval = 60 * 60 * 24 * 7 {
         didSet {
-            storage.disk.expiry = Expiry.seconds(maxAgeLimit)
+            storage.driver.disk.expiry = Expiry.seconds(maxAgeLimit)
         }
     }
     
     /// The maximum total cost that the cache can hold before it starts evicting objects. default 20kb.
     @objc public var maxCountLimit: Disk.Byte = 20 * 1024 {
         didSet {
-            storage.disk.maxCountLimit = maxCountLimit
+            storage.driver.disk.maxCountLimit = maxCountLimit
         }
     }
     
@@ -54,7 +56,7 @@ import ObjectiveC
     /// Memory cache will be purged automatically when a memory warning notification is received.
     @objc public var maxCostLimit: UInt = 00 {
         didSet {
-            storage.memory.maxCostLimit = maxCostLimit
+            storage.driver.memory.maxCostLimit = maxCostLimit
         }
     }
     
@@ -115,18 +117,18 @@ extension OCStorage {
     /// Get the disk cache size.
     @objc public var totalCost: Disk.Byte {
         get {
-            return storage.disk.totalCost
+            return storage.driver.disk.totalCost
         }
     }
     
     /// It's the file expired?
     @objc public func isExpired(forKey key: String) -> Bool {
-        return storage.disk.isExpired(forKey: key)
+        return storage.driver.disk.isExpired(forKey: key)
     }
     
     /// Remove expired files from disk.
     /// - Parameter completion: Removed file URLs callback.
     @objc public func removeExpiredURLsFromDisk(completion: ((_ expiredURLs: [URL]) -> Void)? = nil) {
-        storage.disk.removeExpiredURLsFromDisk(completion: completion)
+        storage.driver.disk.removeExpiredURLsFromDisk(completion: completion)
     }
 }

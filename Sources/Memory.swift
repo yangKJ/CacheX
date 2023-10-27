@@ -1,6 +1,6 @@
 //
 //  Memory.swift
-//  Lemons
+//  CacheX
 //
 //  Created by Condy on 2023/3/23.
 //
@@ -39,7 +39,7 @@ public struct Memory: Subscriptable {
     }
 }
 
-extension Memory: Lemonsable {
+extension Memory: Cacheable {
     
     public func read(key: String) -> Data? {
         self[key]

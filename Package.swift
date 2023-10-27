@@ -25,7 +25,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Lemons",
+    name: "CacheX",
     platforms: [
         .iOS(.v10),
         .macOS(.v10_13),
@@ -33,10 +33,10 @@ let package = Package(
         .watchOS(.v5)
     ],
     products: [
-        .library(name: "Lemons", targets: ["Lemons"]),
+        .library(name: "CacheX", targets: ["CacheX"]),
     ],
     targets: [
-        .target(name: "Lemons", path: "Sources"),
+        .target(name: "CacheX", path: "Sources"),
     ],
     swiftLanguageVersions: [.v5]
 )

@@ -1,6 +1,6 @@
 //
 //  Storage.swift
-//  Lemons
+//  CacheX
 //
 //  Created by Condy on 2023/3/23.
 //  
@@ -8,25 +8,20 @@
 import Foundation
 
 /// Mixed storge transfer station.
-public final class Storage<T: Codable> {
+public struct Storage<T: Codable> {
     
-    public lazy var disk: Disk = Disk()
-    public lazy var memory: Memory = Memory()
+    public let driver: Driver
     
-    lazy var transformer = TransformerFactory.forCodable(ofType: T.self)
-    public let backgroundQueue: DispatchQueue
+    lazy var transformer = TransformerFactory<T>.forCodable()
     
     /// Initialize the object.
     /// - Parameter queue: The default thread is the background thread.
     public init(queue: DispatchQueue? = nil) {
-        self.backgroundQueue = queue ?? {
-            /// Create a background thread.
-            DispatchQueue(label: "com.condy.lemons.cached.queue", qos: .background, attributes: [.concurrent])
-        }()
+        self.driver = Driver(queue: queue)
     }
     
     /// Caching object.
-    public func storeCached(_ object: T, forKey key: String, options: CachedOptions) {
+    public mutating func storeCached(_ object: T, forKey key: String, options: CachedOptions) {
         guard let data = try? transformer.toData(object) else {
             return
         }
@@ -34,7 +29,7 @@ public final class Storage<T: Codable> {
     }
     
     /// Read cached object.
-    public func fetchCached(forKey key: String, options: CachedOptions) -> T? {
+    public mutating func fetchCached(forKey key: String, options: CachedOptions) -> T? {
         guard let data = read(key: key, options: options) else {
             return nil
         }
@@ -43,44 +38,21 @@ public final class Storage<T: Codable> {
     
     /// Read disk data or memory data.
     public func read(key: String, options: CachedOptions) -> Data? {
-        if options ~= .memory, let data = memory.read(key: key) {
-            return data
-        }
-        if options ~= .disk, let data = disk.read(key: key) {
-            return data
-        }
-        return nil
+        driver.read(key: key, options: options)
     }
     
     /// Write data asynchronously to disk and memory.
     public func write(key: String, value: Data, options: CachedOptions) {
-        backgroundQueue.async {
-            if options ~= .disk {
-                self.disk.store(key: key, value: value)
-            }
-            if options ~= .memory {
-                self.memory.store(key: key, value: value)
-            }
-        }
+        driver.write(key: key, value: value, options: options)
     }
     
     /// Remove the specified data.
     public func removed(forKey key: String, options: CachedOptions) {
-        if options ~= .disk {
-            self.disk.removeCache(key: key)
-        }
-        if options ~= .memory {
-            self.memory.removeCache(key: key)
-        }
+        driver.removed(forKey: key, options: options)
     }
     
     /// Remove disk cache and memory cache.
     public func removedDiskAndMemoryCached(completion: SuccessComplete? = nil) {
-        backgroundQueue.async {
-            self.disk.removedCached { isSuccess in
-                DispatchQueue.main.async { completion?(isSuccess) }
-            }
-            self.memory.removedAllCached()
-        }
+        driver.removedDiskAndMemoryCached(completion: completion)
     }
 }
