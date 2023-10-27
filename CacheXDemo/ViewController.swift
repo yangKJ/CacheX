@@ -40,10 +40,9 @@ class ViewController: UIViewController {
     
     func setupCacheX() {
         let storage = Storage<CacheModel>()
+        storage.removed(forKey: "key", options: .diskAndMemory)
         
-        var model = CacheModel()
-        model.named = "Condy_258"
-        model.image = UIImage.init(named: "IMG_0020")
+        let model = CacheModel(named: "Condy_258", image: UIImage(named: "IMG_0020"))
         
         storage.storeCached(model, forKey: "key", options: .diskAndMemory)
         
