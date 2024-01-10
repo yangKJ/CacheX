@@ -49,8 +49,11 @@ public final class Storage<T: Codable> {
     
     /// Read disk data or memory data.
     public func read(key: String, options: CachedOptions) -> Data? {
-        for named in options.cacheNameds() where self.caches[named] != nil {
-            return self.caches[named]!.read(key: key)
+        for named in options.cacheNameds() {
+            guard let value = self.caches[named]?.read(key: key) else {
+                continue
+            }
+            return value
         }
         return nil
     }
