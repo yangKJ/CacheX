@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CacheX'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Mixed storage warehouse with disk and memory. Support OC and Swift.'
   
   # This description is used to generate tags and improve search results.
